@@ -21,7 +21,7 @@ with open('Xytech_spring2026.txt') as xytech_file:
 
 with open('output.csv', 'w', encoding='utf-8') as output_file:
     # csv column names
-    output_file.write("Location,Frames to Fix\n")
+    output_file.write("Path,Frames\n")
 
     with open('Baselight_export_spring2026.txt') as baselight_file:
         for export_line in baselight_file.readlines():
