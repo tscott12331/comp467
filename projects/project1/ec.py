@@ -7,4 +7,4 @@ def print_completed_lines(frame_csv_path:str):
             if len(columns) > 2:
                 print(line)
 
-print_completed_lines("output-x.csv")
+print_completed_lines("frame_data_x.csv")

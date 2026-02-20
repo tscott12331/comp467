@@ -79,4 +79,4 @@ def export_frame_data(frame_file_path:str, relevant_paths_file_path:str, out_pat
                 output_file.write(process_path_frames(xytech_path, frames))
 
 
-export_frame_data('Baselight_export_spring2026.txt', 'Xytech_spring2026.txt', 'output.csv')
+export_frame_data('Baselight_export_spring2026.txt', 'Xytech_spring2026.txt', 'frame_data.csv')
