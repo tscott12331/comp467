@@ -1,5 +1,4 @@
 import re
-import random
 
 # match path after prefix for xytech file paths
 xytech_path_re = r'(/hpsans\d{2}/production/)([A-Za-z0-9/\-_]+)'
@@ -79,42 +78,5 @@ def export_frame_data(frame_file_path:str, relevant_paths_file_path:str, out_pat
                 xytech_path = f"{path_prefix}{path_suffix}"
                 output_file.write(process_path_frames(xytech_path, frames))
 
-print("-" * 100)
-print("Project 1 output")
-print("-" * 100)
+
 export_frame_data('Baselight_export_spring2026.txt', 'Xytech_spring2026.txt', 'output.csv')
-
-
-# EC
-
-# add x at the end of the first n amount of lines
-# n will be random each time
-def complete_frames(frames_csv_path:str):
-    with open(frames_csv_path, 'r+', encoding='utf-8') as csv:
-        content = csv.read()
-        lines = content.split('\n')
-        num_lines = len(lines)
-        num_complete = random.randint(1, num_lines // 3)
-        for i, line in enumerate(lines[1:]):
-            if i + 1 < num_complete:
-                lines[i + 1] = f'{line},x'
-        
-        csv.seek(0)
-        csv.write('\n'.join(lines))
-
-
-def print_completed_lines(frame_csv_path:str):
-    with open(frame_csv_path) as csv:
-        content = csv.read()
-        lines = content.split('\n')
-        for line in lines:
-            columns = line.split(',')
-            if columns[-1].lower() == 'x':
-                print(line)
-
-print("-" * 100)
-print("EC output")
-print("-" * 100)
-
-complete_frames("output.csv")
-print_completed_lines("output.csv")
