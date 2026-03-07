@@ -1,0 +1,3418 @@
+Test #: 1
+Build #: 02/27/2024
+Category: login
+Test Case: tried to login with my Gmail, it gets Authenticatedand tells me " now you can close this tab and return to the game" when I return to the game page it only shows "Connecting to server…" and it doesn’t, waited 10 min didn't work
+Expected Result: the home page of the game will show.
+Actual Result: it stays on the "Connecting to server…" page.
+Repeatable: yes "tried 5 time"
+Blocker: yes
+Test Owner: Hampig Kodjanian
+
+Test #: 2
+Build #: 02/27/2024
+Category: game play
+Test Case: I tried again an hour later it worked while doing the 1st Tutorial 1 minute in logged me out and I still heard the game music, but I am out of the game and couldn’t login again.
+Expected Result: Play the tutorial
+Actual Result: game logged out
+Repeatable: I don’t know, couldn’t login again
+Blocker: Yes
+Test Owner: Hampig Kodjanian
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Click add friend icon, then press back icon to return to main page
+Expected Result: Be returned to main page once friend added
+Actual Result: Upon pressing the back icon to return to main page, the game would freeze and would have to log in again.
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: Playing tutorial
+Expected Result: Instruct us how to play as a beginner
+Actual Result: Got kicked out the game mid tutorial
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 1
+Build #: 02/27/2024
+Category: login
+Test Case: tried to login with my Gmail, it gets Authenticatedand tells me " now you can close this tab and return to the game" when I return to the game page it only shows "Connecting to server…" and it doesn’t, waited 10 min didn't work
+Expected Result: the home page of the game will show.
+Actual Result: it stays on the "Connecting to server…" page.
+Repeatable: yes "tried 5 time"
+Blocker: yes
+Test Owner: Hampig Kodjanian
+
+Test #: 2
+Build #: 02/27/2024
+Category: game play
+Test Case: I tried again an hour later it worked while doing the 1st Tutorial 1 minute in logged me out and I still heard the game music, but I am out of the game and couldn’t login again.
+Expected Result: Play the tutorial
+Actual Result: game logged out
+Repeatable: I don’t know, couldn’t login again
+Blocker: Yes
+Test Owner: Hampig Kodjanian
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Too many unncessary actions need for simple Login thorugh Google
+Expected Result: Simple authentication process one external tab
+Actual Result: Multiple tabs needed to be open for login
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 2
+Build #: 02/27/2024
+Category: Connecting to Server
+Test Case: Takes way to long to connect to server
+Expected Result: Wait less than 20 sec to access the server
+Actual Result: On both my mac and windows laptop I waited over 10 min
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 3
+Build #: 02/27/2024
+Category: Postive
+Test Case: Great graphic overall with the sound
+Expected Result: Basic desgin and graphic
+Actual Result: exceeded my expectation
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 4
+Build #: 02/27/2024
+Category: negative
+Test Case: Last weekend I was able to play the tutorial now I cannot even acess the server
+Expected Result: Faster loading time
+Actual Result: Cannot play or server error
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 1
+Build #: 02/27/2024
+Category: UI/game
+Test Case: User Case: no hover feedback over buttons
+Expected Result: highlight button upon mouse hover
+Actual Result: nothing
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: had to re-authenticate myself
+Expected Result: auto login when clicking email
+Actual Result: went through re-authentication process
+Repeatable: no
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 3
+Build #: 02/27/2024
+Category: General Usage
+Test Case: User Case: using Google Chrome 
+ Latency 3000+, bad fps
+Expected Result: enough fps to understand what is happening
+Actual Result: 2-3 frames a second
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 4
+Build #: 02/27/2024
+Category: Tutorial
+Test Case: user case: finished tutorial, message for tutorial 
+ still shows after tutorial ended
+Expected Result: expecting a congratulations message or
+ something similar once tutorial was finished
+Actual Result: the same tutorial message from before 
+ the tutorial is still displayed
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 5
+Build #: 02/27/2024
+Category: Edit Profile
+Test Case: User Case: Categories not working
+Expected Result: Player Frame, Player Title, Player Banner 
+ buttons go into their respected page layout
+Actual Result: the buttons do not do anything
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 6
+Build #: 02/27/2024
+Category: game
+Test Case: Bug: force quite game, back to relogin page
+Expected Result: play a game against an opponent
+Actual Result: game froze, then sent me back to my log 
+ in page
+Repeatable: yes
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 7
+Build #: 02/27/2024
+Category: login
+Test Case: Bug: log in after previous force quite
+Expected Result: stuck on "Login with email…"
+Actual Result: log in
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 8
+Build #: 02/27/2024
+Category: game
+Test Case: Bug: in game, AI Player 1 timer stopped
+Expected Result: timer would continue to count down
+Actual Result: timer stopped at 72 seconds, I was
+ clicking on my cards to place, not during
+ my turn
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 9
+Build #: 02/27/2024
+Category: main page/game
+Test Case: bug: searching for game
+Expected Result: find a game, or notify that game could not be
+ found
+Actual Result: game froze, then sent me back to my log 
+ in page
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Click add friend icon, then press back icon to return to main page
+Expected Result: Be returned to main page once friend added
+Actual Result: Upon pressing the back icon to return to main page, the game would freeze and would have to log in again.
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: Playing tutorial
+Expected Result: Instruct us how to play as a beginner
+Actual Result: Got kicked out the game mid tutorial
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 3
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Once user is on the Main Page screen, user clicks on the round Friends button on the right. User sees a friends menu sliding form the right. User then clicks "Add Friend", a screen appears, the background becomes blurry. User then clicks on the X button to close the screen. The pop-up disappers but the Main Page screen remains blurry for the user, nothing is clickable. User has to reload the game and log in again. See image file attached to the submission.
+Expected Result: User can close the Friends pop-up using the X button and successfully return to the Main Page.
+Actual Result: User can close the Friends pop-up using the X button but can't access the Main Page anymore.
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Yana Zaynullina
+
+Test #: 4
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Suggestion: On the Main Page, when user hovers over the three round buttons in the middle of the right corner, consider adding labels that would have the text letting user know what each button does, i.e. Friends, Leaderboard, etc.
+Expected Result: Expected to see labels or some text appearing to confirm my assumptions based on the images on the buttons.
+Actual Result: No text appeared, user has to click to learn what each button does.
+Repeatable: Unknown
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: 5
+Build #: 02/27/2024
+Category: Main Page | Settings
+Test Case: The X button does not work on the Settings screen in the Main Menu. User has to use the Cancel button to close it.
+Expected Result: User can exit Settings using the X button.
+Actual Result: Clicking on the X button does not do anything in Settings.
+Repeatable: Yes
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: 6
+Build #: 02/27/2024
+Category: UI
+Test Case: Suggestion: Consider ensuring that all buttons have the same text formatting. Some buttons have all letters capitalized in the text, such as SAVE in Settings, CANCEL in Create New Deck.
+Expected Result: Unknown
+Actual Result: Unknown
+Repeatable: Unknown
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: 7
+Build #: 02/27/2024
+Category: Main Page | News
+Test Case: Suggestion: Consider adding an option "Click here to stop seeing this message" or something like that so that user does not see the News/Updates screen appear in the Main Menu with announcements unprompted.
+Expected Result: Unknown
+Actual Result: Unknown
+Repeatable: Unknown
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: 8
+Build #: 02/27/2024
+Category: Main Page | Leaderboard, UI
+Test Case: Some text is overlapping on the Leadership screen, for example (TOP 100%) gets on the next line and covers the text. See image attached to the submission.
+Expected Result: User can see all the text clearly.
+Actual Result: User cannot see some text.
+Repeatable: Yes
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Click add friend icon, then press back icon to return to main page
+Expected Result: Be returned to main page once friend added
+Actual Result: Upon pressing the back icon to return to main page, the game would freeze and would have to log in again.
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: Playing tutorial
+Expected Result: Instruct us how to play as a beginner
+Actual Result: Got kicked out the game mid tutorial
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 6
+Build #: 02/27/2024
+Category: First Gameplay Tutorial
+Test Case: Game board displays on Firefox web browser
+Expected Result: Game board is displayed
+Actual Result: Game board is displayed
+Repeatable: yes
+Blocker: no
+Test Owner: Rishabh Chadha
+
+Test #: 7
+Build #: 02/27/2024
+Category: First Gameplay Tutorial
+Test Case: Blue spotlight is oversized for the cards
+Expected Result: Blue spotlight is right size for cards
+Actual Result: Blue spotlight is oversized
+Repeatable: yes
+Blocker: no
+Test Owner: Rishabh Chadha
+
+Test #: 8
+Build #: 02/27/2024
+Category: First Gameplay Tutorial
+Test Case: Blue spotlight is oversized for "Draw Card" button
+Expected Result: Blue spotlight is right size for "Draw Card"
+Actual Result: Blue spotlight is oversized
+Repeatable: yes
+Blocker: no
+Test Owner: Rishabh Chadha
+
+Test #: 9
+Build #: 02/27/2024
+Category: First Gameplay Tutorial
+Test Case: Blue spotlight is oversized for "Phase Selector" button
+Expected Result: Blue spotlight is right size for "Phase Selector"
+Actual Result: Blue spotlight is oversized
+Repeatable: yes
+Blocker: no
+Test Owner: Rishabh Chadha
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Tutorial Menu
+Test Case: bug: Leaving tutorial does not allow you to return even though it asks you again
+Expected Result: Re-enter tutorial when asked in initial prompt
+Actual Result: Cannot return to tutorial from initial prompt when asked
+Repeatable: No
+Blocker: No
+Test Owner: Inderjit Singh
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Tutorial Menu
+Test Case: bug: Tutorial counts as complete even if you leave in the beginning of it
+Expected Result: Tutorial should not be complete if you leave midway through
+Actual Result: Tutorial counts as completed and rewards money
+Repeatable: No
+Blocker: No
+Test Owner: Inderjit Singh
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Settings Menu
+Test Case: bug: Settings menu does not close with the X on top right
+Expected Result: Clicking X should allow user to leave settings menu
+Actual Result: Clicking X does not do anything
+Repeatable: Yes
+Blocker: No
+Test Owner: Inderjit Singh
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Deck Builder
+Test Case: user case: For cards with a limit of 2, if we remove one, we cannot add the other back until we remove both cards
+Expected Result: Allow users to remove and add cards when clicked
+Actual Result: Cannot add card until we remove all form deck
+Repeatable: Yes
+Blocker: No
+Test Owner: Inderjit Singh
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: UI/Edit Profile
+Test Case: bug: Username change does not go into effect upon pressing the save button
+Expected Result: Username changes
+Actual Result: Username does not change
+Repeatable: yes
+Blocker: no
+Test Owner: Narek Karapetyan
+
+Test #: 1
+Build #: 02/27/2024
+Category: UI/Deck Builder Tutorial
+Test Case: bug: Play botton does not work
+Expected Result: Deck Builder Tutirial starts
+Actual Result: Nothing Happens
+Repeatable: yes
+Blocker: yes
+Test Owner: Narek Karapetyan
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: After completeing the tutorial and going back to the login screen it got stuck on login with email
+Expected Result: Login with email
+Actual Result: Screen got stuck on "login with email"
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Heather Gardner
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: After completeing the tutorial and going back to the login screen it got stuck on after authenication to "connecting to server"
+Expected Result: Log in and play game
+Actual Result: Screen got stuck on "connecting to server"
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Heather Gardner
+
+Test #: 3
+Build #: 02/27/2024
+Category: UI
+Test Case: Tutorial
+Expected Result: Player info and card info will not interfere with gameplay
+Actual Result: It bothers me that the Player info and the info on a card overlap the gameplay screen.
+Repeatable: Yes
+Blocker: No
+Test Owner: Heather Gardner
+
+Test #: 4
+Build #: 02/27/2024
+Category: Game
+Test Case: Gameplay Tutorial
+Expected Result: Play game/tutorial
+Actual Result: Error "An error occurred running he unity content on this page. See your browser JavaScript console for more info. The error was:abort(275)at Error at jsStackTrace(https://www.endersgate.app/build/EndersGateTCG.framework.js:2:16364
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Heather Gardner
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login/UI/Game/Main Page
+Test Case: One of the bugs I found in the game is while doing the tutorial for gameplay if I click in one card and move to another instruction inside the game, the current steps does not update correctly
+Expected Result: the cards update sooner to the current state of the action in the introduction
+Actual Result: While in other card selection the previous card would keep the current Mouse Click state and respond as if it is currently clicked
+Repeatable: yes
+Blocker: Yes
+Test Owner: Javier Galan
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login/UI/Game/Main Page
+Test Case: If logged out because of not current activity (not sure if this is a bug as well since the window was opened I just didnt move anything for around 20 min, the current authentication again, does not load correctly, it stays in "authenticating
+Expected Result: Expected the authentication to run smooth again even if user is already authenticated, automatically log me in again based on "Remembered data" the same way the CSUN authentication works
+Actual Result: authenticating indefinitely (waited for around 30 min to see some results to change but the authentication did not happen after a while, the way It was solved it was by playing again a few more times but the servers never loaded
+Repeatable: yes
+Blocker: no
+Test Owner: Javier Galan
+
+Test #: 3
+Build #: 02/27/2024
+Category: Reloading the game(Refreshing Page
+Test Case: One of the bugs I found in the game is that if I try to reload the page the game would crash and disconnect me from the servers, as well the loading connecting to servers appear again like the one from test #2
+Expected Result: Expected not to be disconnected from the server and load current game = current server, instead of that the game seems to disconnect current player if refresh
+Actual Result: player has been disconnected from the server and the current server has been
+Repeatable: yes
+Blocker: yes
+Test Owner: Javier Galan
+
+Test #: 8
+Build #: 02/27/2024
+Category: Game
+Test Case: Refreshing does not fix frozen state
+Expected Result: Refresh the page to undo a frozen game state
+Actual Result: After refresh, all games remain in frozen unplayable state
+Repeatable: yes
+Blocker: Yes
+Test Owner: Randy Herrera
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: When trying to attack the opponent directly, clicking a Guardian twice stops you from attacking but the attack UI stays up.
+Expected Result: The attack UI would go away if I click a Guardian twice to attack the opponent
+Actual Result: The attack UI, arrow and aura, stayed up and confused me on why I couldn't attack
+Repeatable: Y
+Blocker: N
+Test Owner: Peter Hernandez
+
+Test #: 4
+Build #: 02/27/2024
+Category: Adventure: Training Mode
+Test Case: When I load up the training mode, all I have is an empty filed that does nothing. No timer, no cards, no opponent
+Expected Result: A practice mode where I'm able to play an AI game like in Arena mode
+Actual Result: I load into an empty room with no cards and no opponent
+Repeatable: Y
+Blocker: N
+Test Owner: Peter Hernandez
+
+Test #: 16
+Build #: 02/27/2024
+Category: game play
+Test Case: Page frozen
+Expected Result: Tutorial battle starting
+Actual Result: Nothing , the whole page froze
+Repeatable: Yes
+Blocker: yes
+Test Owner: Mimi Truong
+
+Test #: 17
+Build #: 02/27/2024
+Category: Arena Game
+Test Case: Moved to new tab, came back and game logged me out
+Expected Result: Battle begins
+Actual Result: logged me out and now I have to take the extra million steps to authenticate myself
+Repeatable: Yes
+Blocker: yes
+Test Owner: Mimi Truong
+
+Test #: 18
+Build #: 02/27/2024
+Category: connect to server
+Test Case: Still connecting to server after several minutes after authentication
+Expected Result: home page loads
+Actual Result: still connecting to the server since everyone is playing
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Mimi Truong
+
+Test #: 1
+Build #: 02/27/2024
+Category: login
+Test Case: tried to login with my Gmail, it gets Authenticatedand tells me " now you can close this tab and return to the game" when I return to the game page it only shows "Connecting to server…" and it doesn’t, waited 10 min didn't work
+Expected Result: the home page of the game will show.
+Actual Result: it stays on the "Connecting to server…" page.
+Repeatable: yes "tried 5 time"
+Blocker: yes
+Test Owner: Hampig Kodjanian
+
+Test #: 2
+Build #: 02/27/2024
+Category: game play
+Test Case: I tried again an hour later it worked while doing the 1st Tutorial 1 minute in logged me out and I still heard the game music, but I am out of the game and couldn’t login again.
+Expected Result: Play the tutorial
+Actual Result: game logged out
+Repeatable: I don’t know, couldn’t login again
+Blocker: Yes
+Test Owner: Hampig Kodjanian
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: Bug: Game boots me back to main menu during tutorial
+Expected Result: Game plays normally
+Actual Result: Logged out of game to main menu
+Repeatable: No
+Blocker: Yes
+Test Owner: Grigor Azakian
+
+Test #: 2
+Build #: 02/27/2024
+Category: Game
+Test Case: User: Latency indicator blocking GUI elements
+Expected Result: Latency indicator owns its own spot on the page
+Actual Result: Latency indicator covering GUI elements
+Repeatable: Tes
+Blocker: Yes
+Test Owner: Grigor Azakian
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login/UI/Game/FindMatch  Login/UI/Game/training
+Test Case: Bug: Whenever I try to find a match online or go to the training, the game does not load into the game, and is just stuck loading the match
+Expected Result: I would get in a match
+Actual Result: The game does not load into the match
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Omar Garcia
+
+Test #: 4
+Build #: 02/27/2024
+Category: Login/UI/Game/Friends
+Test Case: Bug? Whenever I ask friend to battle, and they accept, the game loads in, but logs both of us out
+Expected Result: Expecting to play with a friend
+Actual Result: I couldn't get a game and it always logged both of us out
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Omar Garcia
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login/UI/Game/FindMatch  Login/UI/Game/training
+Test Case: Bug: Whenever I try to find a match online or go to the training, the game does not load into the game, and is just stuck loading the match
+Expected Result: I would get in a match
+Actual Result: The game does not load into the match
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Kevin Chaja
+
+Test #: 4
+Build #: 02/27/2024
+Category: Login/UI/Game/Friends
+Test Case: Bug? Whenever I ask friend to battle, and they accept, the game loads in, but logs both of us out
+Expected Result: Expecting to play with a friend
+Actual Result: I couldn't get a game and it always logged both of us out
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Kevin Chaja
+
+Test #: 4
+Build #: 02/27/2024
+Category: login
+Test Case: bug: unable to connect to server after doing the authorization
+Expected Result: connect me to the server
+Actual Result: stuck on a screen that says connectng to server
+Repeatable: no
+Blocker: yes
+Test Owner: Victor Um
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Too many unncessary actions need for simple Login thorugh Google
+Expected Result: Simple authentication process one external tab
+Actual Result: Multiple tabs needed to be open for login
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 2
+Build #: 02/27/2024
+Category: Connecting to Server
+Test Case: Takes way to long to connect to server
+Expected Result: Wait less than 20 sec to access the server
+Actual Result: On both my mac and windows laptop I waited over 10 min
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 3
+Build #: 02/27/2024
+Category: Postive
+Test Case: Great graphic overall with the sound
+Expected Result: Basic desgin and graphic
+Actual Result: exceeded my expectation
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 4
+Build #: 02/27/2024
+Category: negative
+Test Case: Last weekend I was able to play the tutorial now I cannot even acess the server
+Expected Result: Faster loading time
+Actual Result: Cannot play or server error
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 2
+Build #: 02/27/2024
+Category: Deck Builder Tutorial
+Test Case: Clicking play does not start tutorial
+Expected Result: Start the tutorial
+Actual Result: Does not start tutorial
+Repeatable: yes
+Blocker: yes
+Test Owner: Jonathan Alcantar
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Sign in Via Google locks up browser
+Expected Result: Sign in via google and continue to game
+Actual Result: Browser reported as not responding
+Repeatable: No
+Blocker: No
+Test Owner: Jack Konyan
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Stuck on Connecting to Server
+Expected Result: Message to appear but connect and move on
+Actual Result: Stuck on connecting screen
+Repeatable: yes
+Blocker: Yes
+Test Owner: Jack Konyan
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: Tutorial battle
+Expected Result: Attack player and win game
+Actual Result: No action is available to take
+Repeatable: no
+Blocker: yes
+Test Owner: Jack Konyan
+
+Test #: 4
+Build #: 02/27/2024
+Category: Game
+Test Case: Refreshing page
+Expected Result: Continue to be logged in
+Actual Result: Logs me out
+Repeatable: Yes
+Blocker: No
+Test Owner: Jack Konyan
+
+Test #: 5
+Build #: 02/27/2024
+Category: Game
+Test Case: Launch Deck Builder Tutorial
+Expected Result: Tutorial starts
+Actual Result: Nothing happens and tutorial is marked as complete
+Repeatable: No
+Blocker: Yes
+Test Owner: Jack Konyan
+
+Test #: 1
+Build #: 02/27/2024
+Category: UI
+Test Case: When in tutorial mode, ui elements were too quick for me to catch up with
+For instance, when switching bitween phases, quick notifications would pop up in the middle of the screen
+and I would have hard time catching what they said
+Expected Result: At least the notifications should  be available for 2 seconds before they disappear
+Actual Result: They were too quick
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 2
+Build #: 02/27/2024
+Category: UI
+Test Case: The search feature does not work in tutorials tab
+Expected Result: When searching keywords, it should dynamically render the needed tutorial
+Actual Result: No change in the rendered list
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 3
+Build #: 02/27/2024
+Category: Main Page
+Test Case:  news feed buttons (Latest News, Latest Updates) do not do anything when clicked
+
+Expected Result: Open separate tab for detaild information on each of those buttons
+Actual Result: No change when clicked
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 4
+Build #: 02/27/2024
+Category: UI
+Test Case: even though I the First Gameplay Tutorial" was completed,
+Expected Result: Unknown
+Actual Result: Unknown
+Repeatable: Unknown
+Blocker: Unknown
+Test Owner: Unknown
+
+Test #: 5
+Build #: 02/27/2024
+Category: UI
+Test Case: hitting X on settings menu does not close the window, however, the cancel does
+Expected Result: hitting it would close the window
+Actual Result: does not respond
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 6
+Build #: 02/27/2024
+Category: Game
+Test Case: Clicking on the play builder deck tutorial, would just close the turorial window
+and would not open the tutorial
+even though I have not completed it, it says that I did complete it
+Expected Result: Start a turorial like First Gameplay tutorial would do
+Actual Result: Just closes the tutorial selection window
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 4
+Build #: 02/27/2024
+Category: Main Page
+Test Case: exiting first tutorial
+Expected Result: new player pop up no longer displays
+Actual Result: new player pop up displays, when yes is clicked nothing happens
+Repeatable: no
+Blocker: no
+Test Owner: Christina Mourad
+
+Test #: 5
+Build #: 02/27/2024
+Category: Main Page
+Test Case: beginning next tutorial after the first is completed
+Expected Result: second tutorial begins
+Actual Result: doesn't run tutorial
+Repeatable: yes
+Blocker: yes
+Test Owner: Christina Mourad
+
+Test #: 6
+Build #: 02/27/2024
+Category: Game
+Test Case: clicking and activating items before told by tutorial
+Expected Result: doesn't allow/doesn't allow user to access
+Actual Result: glitches and doesn't allow for tutorial to resume
+Repeatable: yes if really forced
+Blocker: no
+Test Owner: Christina Mourad
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: 
+bug: Put down Lumberjack Nick and got sent back to login screen
+Expected Result: Lumberjack Nick would be placed onto the battlefield
+Actual Result: Got sent back to the login screen
+Repeatable: No
+Blocker: Yes/no
+Test Owner: Ryan Kao
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: 
+user case: Got stuck on email login
+Expected Result: To get sent to log in screen
+Actual Result: Infinite load time
+Repeatable: yes
+Blocker: Yes/no
+Test Owner: Ryan Kao
+
+Test #: 3
+Build #: 02/27/2024
+Category: Login
+Test Case: 
+
+user case: Got stuck on connecting to server
+Expected Result: Sent to the home screen after log in
+Actual Result: Stuck on connecting to server
+Repeatable: yes
+Blocker: Yes/no
+Test Owner: Ryan Kao
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: user case: after using email to login, return back to the original page, it shows "connectting to the server", and never goes to the next step
+Expected Result: go to the main page
+Actual Result: stays in the login page
+Repeatable: yes
+Blocker: yes
+Test Owner: Hannah Xie
+
+Test #: 1
+Build #: 02/27/2024
+Category: Main Page
+Test Case: User: If I leave page and return to home it continues to ask about playing tutorial
+Expected Result: If I play tut I expect it to remember and not keep popping up
+Actual Result: Marked that I did tutorial  on tutorial page but would still keep popping up if I left the main page and returned
+Repeatable: yes
+Blocker: Unknown
+Test Owner: Alondra Sanchez
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Bug: clicking deck tutorial doesnt work
+Expected Result: Expected deck tutorial to start
+Actual Result: Just closed the tab without starting anything
+Repeatable: yes
+Blocker: Unknown
+Test Owner: Alondra Sanchez
+
+Test #: 2
+Build #: 02/27/2024
+Category: Game
+Test Case: Black screen when I loaded into a game wouldn't let me click anything
+Expected Result: load the screen properly
+Actual Result: black screen
+Repeatable: no
+Blocker: Yes/no
+Test Owner: Brian Rojas
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Bug: Closing pop-up for login
+Expected Result: Option to login to be apparent again
+Actual Result: auses the login page to be stuck on "login with email"
+Repeatable: Yes
+Blocker: no
+Test Owner: Jae Molina
+
+Test #: 2
+Build #: 02/27/2024
+Category: UI
+Test Case: Bug: Opening friends list and then open "Add Friends" and then closing both menus
+Expected Result: Close both menus and return to menu
+Actual Result: Menu is unable to be intreacted and is blurred. Cannot be resolved until you refresh the page
+Repeatable: yes
+Blocker: Yes
+Test Owner: Jae Molina
+
+Test #: 3
+Build #: 02/27/2024
+Category: Login
+Test Case: User Case: Too often needed to resign
+Expected Result: Refreshing page should keep you still signed in
+Actual Result: When you refresh the page, it signs you out
+Repeatable: Yes
+Blocker: no
+Test Owner: Jae Molina
+
+Test #: 1
+Build #: 02/27/2024
+Category: UI/game
+Test Case: User Case: no hover feedback over buttons
+Expected Result: highlight button upon mouse hover
+Actual Result: nothing
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: had to re-authenticate myself
+Expected Result: auto login when clicking email
+Actual Result: went through re-authentication process
+Repeatable: no
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 3
+Build #: 02/27/2024
+Category: General Usage
+Test Case: User Case: using Google Chrome 
+Latency 3000+, bad fps
+Expected Result: enough fps to understand what is happening
+Actual Result: 2-3 frames a second
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 4
+Build #: 02/27/2024
+Category: Tutorial
+Test Case: user case: finished tutorial, message for tutorial 
+still shows after tutorial ended
+Expected Result: expecting a congratulations message or
+something similar once tutorial was finished
+Actual Result: the same tutorial message from before 
+the tutorial is still displayed
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 5
+Build #: 02/27/2024
+Category: Edit Profile
+Test Case: User Case: Categories not working
+Expected Result: Player Frame, Player Title, Player Banner 
+buttons go into their respected page layout
+Actual Result: the buttons do not do anything
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 6
+Build #: 02/27/2024
+Category: game
+Test Case: Bug: force quite game, back to relogin page
+Expected Result: play a game against an opponent
+Actual Result: game froze, then sent me back to my log 
+in page
+Repeatable: yes
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 7
+Build #: 02/27/2024
+Category: login
+Test Case: Bug: log in after previous force quite
+Expected Result: stuck on "Login with email…"
+Actual Result: log in
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 8
+Build #: 02/27/2024
+Category: game
+Test Case: Bug: in game, AI Player 1 timer stopped
+Expected Result: timer would continue to count down
+Actual Result: timer stopped at 72 seconds, I was
+clicking on my cards to place, not during
+my turn
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 9
+Build #: 02/27/2024
+Category: main page/game
+Test Case: bug: searching for game
+Expected Result: find a game, or notify that game could not be
+found
+Actual Result: game froze, then sent me back to my log 
+in page
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main Menu
+Test Case: Deck Builder Tutorial cannot be accessed through the main menu
+Expected Result: Deck Builder Tutorial should start
+Actual Result: User is brought back to main menu
+Repeatable: Yes
+Blocker: No
+Test Owner: Jorge Enriquez
+
+Test #: 3
+Build #: 02/27/2024
+Category: Main Menu
+Test Case: After user is kicked from inactivity, user can no longer log back in
+Expected Result: User’s browser should open Magic to log in
+Actual Result: No tab or pop up appears for log in
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Jorge Enriquez
+
+Test #: 2
+Build #: 02/27/2024
+Category: Edit Profile Page
+Test Case: Clicking the three buttons: Player Frame, Player Title, and Player Banner all do nothing
+Expected Result: They should allow me to customize those things
+Actual Result: Nothing happens
+Repeatable: yes
+Blocker: no
+Test Owner: Garrette Clarke
+
+Test #: 2
+Build #: 02/27/2024
+Category: Deck Building Page
+Test Case: When trying to add a card to my deck that I don't have, it says "You've only got 0 cards"
+Expected Result: I would expect it to say "You don't have any of those cards"
+Actual Result: It says something different
+Repeatable: yes
+Blocker: no
+Test Owner: Garrette Clarke
+
+Test #: 1
+Build #: 02/27/2024
+Category: Main Page
+Test Case: bug: clicking on the deckbuilder tutorial button doesn’t take you to a tutorial.
+Expected Result: Expected to go to a tutorial about deckbuilding
+Actual Result: Menu goes away and user stays at the main menu and deckbuilder tutorial never launches.
+Repeatable: yes
+Blocker: no
+Test Owner: Jayms Stockdale
+
+Test #: 2
+Build #: 02/27/2024
+Category: Game
+Test Case: user case: extreamly high latency on windows 11 pc, running on chrome browser. Specs: i9900kf, 2070 super, 32gb ram ddr4, m.2 ssd. Hardwired Lan connection to internet
+Expected Result: Expected game to run smoothly. The game does run well on my macbook pro with an m1 pro chip on chrome browser.
+Actual Result: Super high latency causing game run very poorly, practactly makes game unplayable
+Repeatable: yes
+Blocker: yes
+Test Owner: Jayms Stockdale
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: When attempting to play an Arena Match or a training match, I am logged out as soon as the arena loads
+Expected Result: Start a match
+Actual Result: Logged out
+Repeatable: yes
+Blocker: yes
+Test Owner: Donald Cruz
+
+Test #: 4
+Build #: 02/27/2024
+Category: User Case
+Test Case: On browser, scrolling through one's card collection is extremely choppy
+Expected Result: scroll througH the collection quickly
+Actual Result: Choppy scrolling
+Repeatable: yes
+Blocker: no
+Test Owner: Donald Cruz
+
+Test #: 1
+Build #: 02/27/2024
+Category: Main page
+Test Case: Main page is white and blank while trying to load/render
+Expected Result: I expected a main page and I didn't get any
+Actual Result: I am met with a blank white screen because it took too long for the main page to load
+Repeatable: no
+Blocker: no
+Test Owner: Mansoor Amza
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main page
+Test Case: Main page took a while to load when scrolling too fast
+Expected Result: A fully rendered main page
+Actual Result: As I scrolled fast down it was still trying to load in the contnet
+Repeatable: yes
+Blocker: no
+Test Owner: Mansoor Amza
+
+Test #: 3
+Build #: 02/27/2024
+Category: Unknown
+Test Case: Play now button with purple hover effect seems unreadable
+Expected Result: This is a suggestion
+Actual Result: This is a suggestion
+Repeatable: yes
+Blocker: no
+Test Owner: Mansoor Amza
+
+Test #: 8
+Build #: 02/27/2024
+Category: Tutorial Search (Main Page)
+Test Case: Bug: The tutorial search bar does not seem to search after clicking on the search icon or pressing "Enter"
+Expected Result: The tutorial search bar should search the tutorials when a search term is entered and either the search icon or the "Enter" key is pressed
+Actual Result: The tutorial search bar does not initiate a search after a term is entered and the search icon or "Enter" key is pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 9
+Build #: 02/27/2024
+Category: Tutorial Search (Main Page)
+Test Case: Bug: The tutorial search bar clear icon (the "X") does not clear the input field when pressed
+Expected Result: The "X" to clear the tutorial search bar should clear the input field
+Actual Result: The "X" to clear the tutorial search bar does not clear the input field when pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 10
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: Bug: The "X" to close the Settings overlay does not close the overlay
+Expected Result: The "X" should close the Settings overlay when pressed
+Actual Result: The "X" does not close the Settings overlay when pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 11
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: User Case: "SAVE" in the Settings has all letters capitalized when the other words on the buttons only have the first letter capitalized
+Expected Result: I expect the capitalization to be consistent throughout the Settings
+Actual Result: SAVE has all letters capitalized and is inconsistent with the other buttons
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 12
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: User Case: "default" in the "Reset to default" button in Settings is not capitalized  and is inconsistent with the other capitalization in Settings
+Expected Result: I expect the capitalization to be consistent throughout the Settings
+Actual Result: default in the "Reset to default" button in Settings is not capitalized  and is inconsistent with the other capitalization in Settings
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 13
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: User Case: The word "volume" for the option "Sound volume" does not have the first letter capitalized and is inconsistent with the words in the other options in Settings
+Expected Result: I expect the capitalization to be consistent throughout the Settings
+Actual Result: The word "volume" for the option "Sound volume" does not have the first letter capitalized and is inconsistent with the words in the other options in Settings
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 14
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: Bug: The "Cancel" button in the Settings seems to save the options that were updated
+Expected Result: I expect the "Cancel" button in the Settings to close the Settings without saving the updates to the optios
+Actual Result: The "Cancel" button saved the updated options in the Settings
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 15
+Build #: 02/27/2024
+Category: Add Friends Page
+Test Case: Bug: After closing the "Add Friends", the background stays blurry and prevents further navigation of the website
+Expected Result: I expect the background to return to normal after closing the "Add Friends" page
+Actual Result: The background remained blurry after closing the "Add Friends" background and prevented further navigation of the website
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Katrina Ortiz
+
+Test #: 16
+Build #: 02/27/2024
+Category: Leaderboard Page
+Test Case: Bug: The leaderboard search bar does not seem to search after clicking on the search icon or pressing "Enter"
+Expected Result: The leaderboard search bar should search the leaderboard when a search term is entered and either the search icon or the "Enter" key is pressed
+Actual Result: The leaderboard search bar does not initiate a search after a term is entered and the search icon or "Enter" key is pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 17
+Build #: 02/27/2024
+Category: Leaderboard Page
+Test Case: Bug: The leaderboard search bar clear icon (the "X") does not clear the input field when pressed
+Expected Result: The "X" to clear the leaderboard search bar should clear the input field
+Actual Result: The "X" to clear the leaderboard search bar does not clear the input field when pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 18
+Build #: 02/27/2024
+Category: Friends Page
+Test Case: Bug: The friends search bar does not seem to search after clicking on the search icon or pressing "Enter"
+Expected Result: The friends search bar should search the friends when a search term is entered and either the search icon or the "Enter" key is pressed
+Actual Result: The friends search bar does not initiate a search after a term is entered and the search icon or "Enter" key is pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 19
+Build #: 02/27/2024
+Category: Friends Page
+Test Case: Bug: The friends search bar clear icon (the "X") does not clear the input field when pressed
+Expected Result: The "X" to clear the friends search bar should clear the input field
+Actual Result: The "X" to clear the friends search bar does not clear the input field when pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 20
+Build #: 02/27/2024
+Category: Edit Profile Page
+Test Case: Bug: The updated Player Name doesn't save after the "Save" button is clicked on the Edit profile page
+Expected Result: The updated Player Name should save when the "Save" is clicked
+Actual Result: The updated Player Name doesn't save after the "Save" button is clicked on the Edit profile page
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 21
+Build #: 02/27/2024
+Category: Deck Builder Page
+Test Case: User Case: "CANCEL" in the Create New Deck menu in the Deck Builder page has all letters capitalized when the words on the other button only have the first letter capitalized
+Expected Result: I expect the capitalization to be consistent throughout the Deck Builder Page
+Actual Result: CANCEL has all letters capitalized and is inconsistent with the other button
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 22
+Build #: 02/27/2024
+Category: Deck Builder Page (Add New Card)
+Test Case: User Case: The add new card content doesn't auto fit when the browser was shrunk so the arrows and the "X" close icon were hidden
+Expected Result: I expect the website's content to auto fit when the browser changes size
+Actual Result: The add new card content doesn't auto fit when the browser was shrunk so the arrows and the "X" close icon were hidden
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 23
+Build #: 02/27/2024
+Category: Gameplay Tutorial Page
+Test Case: Bug: I was able to "Hire" and "Set" every card by the Main Phase 2 stage in the Gameplay tutorial and the tutorial became stuck and was not able to progress
+Expected Result: I expect to be prevented from doing something in the Gameplay tutorial that is not meant to happen at that stage in the tutorial
+Actual Result: I was able to "Hire" and "Set" every card by the Main Phase 2 stage in the Gameplay tutorial and the tutorial became stuck and was not able to progress
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Katrina Ortiz
+
+Test #: 24
+Build #: 02/27/2024
+Category: Gameplay Tutorial Page
+Test Case: Bug: I was able click "Activate" on the "Cursed Jian" card before the Main Phase 2 stage in the Gameplay tutorial and the tutorial became stuck and was not able to progress since the "Cursed Jian" overlay was covering the card I was supposed to "Set" to progress the tutorial
+Expected Result: I expect to be prevented from doing something in the Gameplay tutorial that is not meant to happen at that stage in the tutorial
+Actual Result: I was able click "Activate" on the "Cursed Jian" card before the Main Phase 2 stage in the Gameplay tutorial and the tutorial became stuck and was not able to progress since the "Cursed Jian" overlay was covering the card I was supposed to "Set" to progress the tutorial
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Katrina Ortiz
+
+Test #: 1
+Build #: 02/27/2024
+Category: Log In
+Test Case: Logging in with google took a couple tries to get in
+Expected Result: Loading into the game
+Actual Result: Nothing, just says "connecting to the server…" for 5 minutes
+Repeatable: Yes
+Blocker: No
+Test Owner: Brandon Hakimi
+
+Test #: 2
+Build #: 02/27/2024
+Category: Server
+Test Case: Got kicked out while playing the tutorial after about five minutes. Wasn’t paying too much attention to latency but when I did it was around 170-200. I got a couple turns in the battle phase before it happened. Was kicked out to the main login page with the music still playing
+Expected Result: Continue tutorial
+Actual Result: Got kicked
+Repeatable: Yes
+Blocker: No
+Test Owner: Brandon Hakimi
+
+Test #: 3
+Build #: 02/27/2024
+Category: Tutorial
+Test Case: When I got disconnected while doing the first gameplay tutorial, I got back on 20 minutes later and it said I had finished it. I clicked the play and it still worked and I was able to do the tutorial but doing the tutorial made the game think I had completed the deck builder tutorial as well. Now when I try to do the deck builder tutorial nothing happens when I click play.
+Expected Result: Start deck builder tutorial
+Actual Result: Nothing
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Brandon Hakimi
+
+Test #: 4
+Build #: 02/27/2024
+Category: Profile
+Test Case: The Player Frame, Player Title, and Player Banner buttons do not work in the profile tab. I assume this is because we are still in beta and these things are not very important but I am reporting it just in case it is supposed to work
+Expected Result: Show me options to customize my profile more
+Actual Result: Nothing
+Repeatable: Yes
+Blocker: No
+Test Owner: Brandon Hakimi
+
+Test #: 5
+Build #: 02/27/2024
+Category: Log In
+Test Case: I got kicked out again and tried to log back in but this time the website didn’t even load the login authenticate page after I clicked on "Email Login".
+Expected Result: Take me to authenticate login page
+Actual Result: Login with email… message without opening a new authenticate tab
+Repeatable: No
+Blocker: Yes (but refreshing the page helped resolve the issue)
+Test Owner: Brandon Hakimi
+
+Test #: 1
+Build #: 02/27/2024
+Category: First Gameplay Tutuorial
+Test Case: user case: luna covers gold in tutorial
+Expected Result: Ability to see gold
+Actual Result: Could not see gold
+Repeatable: yes
+Blocker: no
+Test Owner: Rahi Misra
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main Page
+Test Case: bug: asked if new player after tutorial
+Expected Result: Would not ask the same question again
+Actual Result: Asked same thing twice
+Repeatable: no
+Blocker: no
+Test Owner: Rahi Misra
+
+Test #: 3
+Build #: 02/27/2024
+Category: Main Page
+Test Case: bug: randomly disconnected
+Expected Result: The game would stay open
+Actual Result: The game logged out
+Repeatable: yes
+Blocker: yes
+Test Owner: Rahi Misra
+
+Test #: 4
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: stuck in authentication screen after logout
+Expected Result: The game would let me log back in
+Actual Result: Had to open game in new tab
+Repeatable: yes
+Blocker: yes
+Test Owner: Rahi Misra
+
+Test #: 5
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: cannot connect to server
+Expected Result: Get into game after authentication
+Actual Result: Stuck connecting to server
+Repeatable: yes
+Blocker: yes
+Test Owner: Rahi Misra
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Main Page
+Test Case: user case: main menu buttons have no hover sprite (Arena, Adventure, Tutorials, NFT SHOP, SETTINGS)
+Expected Result: The buttons to hover and possibly change cursor image to signify that it's clickable
+Actual Result: No hover sprite or cursor change
+Repeatable: yes
+Blocker: no
+Test Owner: Jean Hanna
+
+Test #: 1
+Build #: 02/27/2024
+Category: Edit Profile Page
+Test Case: bug case: you can have names with just white space by using space bar
+Expected Result: To display a meaningful error message when inputting an incorrect display name and to not allow white space only
+Actual Result: To display an error message and not allow the user to have a white space only display name
+Repeatable: yes
+Blocker: no
+Test Owner: Jean Hanna
+
+Test #: 1
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Unable to access deck builder tutorial
+Expected Result: In game tutorial loads
+Actual Result: Tutorial menu closes, goes back to main screen
+Repeatable: yes
+Blocker: no
+Test Owner: Eddy Ceniza
+
+Test #: 2
+Build #: 02/27/2024
+Category: Game
+Test Case: Game logged out user during gameplay tutorial
+Expected Result: Smooth gameplay experience
+Actual Result: Laggy experience leading to user signed out, music can still be heard
+Repeatable: yes
+Blocker: yes
+Test Owner: Eddy Ceniza
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: I accidentally exited the tutorial
+Expected Result: back to main menu with no issue
+Actual Result: back to main menu with tutorial marked complete
+Repeatable: yes
+Blocker: no
+Test Owner: Michael Green
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main page
+Test Case: bug: cannot access tutorial after it has been marked as complete, despite not having done it
+Expected Result: go to second tutorial
+Actual Result: does not go to second tutorial
+Repeatable: yes
+Blocker: no
+Test Owner: Michael Green
+
+Test #: 3
+Build #: 02/27/2024
+Category: UI
+Test Case: User case: Does not display well on ultra wide
+Expected Result: normal display
+Actual Result: bottom part was cutoff unless played in windowed mode
+Repeatable: yes
+Blocker: no
+Test Owner: Michael Green
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: user case: The "Continue with Google" button is appears late.
+Expected Result: The "Continue with Google" button appears with the rest of the page.
+Actual Result: The "Continue with Google" button is loaded 1-3 seconds after the rest of the UI elements.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: While authenticating with Magic, the "Sign" button can be pressed after authentication.
+Expected Result: After clicking "confirm" on the magic.link page during email authentication, the "sign" / "✓" button on the endersgate page stays unpressable.
+Actual Result: After clicking "confirm" on the magic.link page, the "Sign" / "✓" button on the edersgate page becomes clickable again for about 1 second which opens a new magic.link page.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: Tutorials marked as completed without completion upon refresh.
+Expected Result: Refreshing mid tutorial keeps it uncompleted.
+Actual Result: Refreshing and logging back in marks one or more of the tutorials as completed. The first refresh marked the gameplay tutorial as complete, and the second refresh marked the deck builder tutorial as complete despite never opening it.
+Repeatable: no
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 4
+Build #: 02/27/2024
+Category: Login
+Test Case: user case: Temporary email services can be used.
+Expected Result: Only allow reputable email services or have a blacklist of common temporary email services.
+Actual Result: Login allowed with temporary email service such as yopmail.com
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 5
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The settings menu can't be closed with the X button.
+Expected Result: Clicking the X button on the top right of the settings menu closes it.
+Actual Result: Clickcing the X button on the top right of the stetings menu does nothing. Only clicking cancel will close the menu.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 6
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The cancel button saves the settings.
+Expected Result: Pressing cancel on the settings menu reverts the settings to what they were before opening the settings.
+Actual Result: The cancel button saves the settings like the same button.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 7
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: A blur layer added when clicking "Add Friends" never goes away.
+Expected Result: Clicking out of the "Add Friends" menu removes the blur background.
+Actual Result: Clicking out of the "Add Friends" menu does not remove the blur background.
+Repeatable: yes
+Blocker: yes
+Test Owner: Connor Beaudoin
+
+Test #: 8
+Build #: 02/27/2024
+Category: UI
+Test Case: user case: Windows can overlap on the menu.
+Expected Result: Opening a new window, such as settings, friends, leaderboard, etc, closes the other windows on page.
+Actual Result: Opening a new window, such as settings, friends, leaderboard, etc, stacks them on top of each other cluttering the UI.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 9
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The search function in the leaderboard/tutorials does not filter the results.
+Expected Result: Searching for a term shows the filtered results.
+Actual Result: Searching for a term does nothing.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 10
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The X (clear) button on the search bar in the leaderboard/tutorials does not clear the search.
+Expected Result: Clicking the X (clear) button on the search clears the input box.
+Actual Result: Clicking the X (clear) button on the search does nothing.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 11
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: Clicking certain UI elements causes the music to stutter/restart.
+Expected Result: Clicking all menu options causes no effect to the music.
+Actual Result: Clicking "NFT SHOP", the square ad in the bottom left, "READ MORE"/"JOIN WAITLIST" in the news, or "FEEDBACK" causes the music to stutter. Clicking into "DECK BUILDER" or the user profile does not cause music stuttering, but clicking out of them back to the menu does cause stuttering.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 12
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The "Latest News" and "Latest Update" buttons do nothing.
+Expected Result: The "Latest News" and "Latest Update" buttons open a page with the relevant information.
+Actual Result: The "Latest News" and "Latest Update" buttons do nothing.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 13
+Build #: 02/27/2024
+Category: UI
+Test Case: user case: The top right dragon crested button menu is at a lower resolution (is blurrier) than the bottom left square ad banner.
+Expected Result: The two menu sections have the same level of detail.
+Actual Result: The top left menu is blurrier than the bottom right square ad banner.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 14
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The tutorial uses my autogenerated ID instead of my custom username.
+Expected Result: The tutorial displays my custom username if set before entering the tutorial.
+Actual Result: The tutorial displays my default ID username.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 15
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: During the tutorial, the blue clickable region allows interacting with outside elements which can block progression. By swishing the mouse back and forth quickly over the barrier of the blue region the neighboring card can become selected. Then, the "activate" button is within the clickable blue region which can cause a popup menu that blocks progression and the buttons to interact with it are outside of the blue region which is still the original card the tutorial intended for you to click.
+Expected Result: The blue region prevents outside interactions OR there is no region restriction to prevent blocking progression.
+Actual Result: The tutorial becomes unable to continue.
+Repeatable: yes
+Blocker: yes
+Test Owner: Connor Beaudoin
+
+Test #: 16
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The "You've got only 1 cards." message in the deck builder is plural.
+Expected Result: It should not be plural if there is only 1 card.
+Actual Result: It is plural.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 17
+Build #: 02/27/2024
+Category: Main Page
+Test Case: user case: The center card rotation animation jerks abruptly as the next card appears and the previous card teleports.
+Expected Result: The card switching animation is smooth.
+Actual Result: The card switching animation jerks and is jarring.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 18
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: The game's music continues to play even if you idle long enough to get logged out. (Tested in the tutorial.)
+Expected Result: The musis cancels when you are logged out.
+Actual Result: The music continues when you are logged out.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 19
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: The "email login" button opens TWO auth pages if you  idle long enough to get logged out. (Tested in the tutorial.)
+Expected Result: Like when you navigate to the login page manually, only one auth page is opened.
+Actual Result: Two auth pages are opened.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 20
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: "How toOobtain" and "Related Cards" buttons in deck builder don't do anything.
+Expected Result: Open relevant pages or popup menus.
+Actual Result: Nothing happens.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: UI
+Test Case: Words in different language are being split in different lines (Tutorial prompt)
+Expected Result: Words are not separated into two lines
+Actual Result: Word split into half - one in first line, the other in second
+Repeatable: yes
+Blocker: no
+Test Owner: Elijah Ko
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Logging in after being kicked due to inactivity leads to being stuck in infinite authentication.
+Expected Result: Log back in as usual
+Actual Result: Stuck in authentication process
+Repeatable: yes
+Blocker: yes
+Test Owner: Elijah Ko
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: Login page stuck at "Login in with email" when you close the  tab that opens up after pressing login with email
+Expected Result: Give the user a choice to use Wallet Login or Email Login
+Actual Result: Stuck on login page saying "Login with email"
+Repeatable: yes
+Blocker: yes
+Test Owner: Elijah Ko
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: Pressed the deck building tutorial, nothing happened. It says tutorial completed
+Expected Result: Go through deck building tutorial
+Actual Result: Nothing happened, tutorial is marked complete
+Repeatable: no
+Blocker: no
+Test Owner: Elijah Ko
+
+Test #: 1
+Build #: 02/27/2024
+Category: login
+Test Case: tried to login with my Gmail, it gets Authenticatedand tells me " now you can close this tab and return to the game" when I return to the game page it only shows "Connecting to server…" and it doesn’t, waited 10 min didn't work
+Expected Result: the home page of the game will show.
+Actual Result: it stays on the "Connecting to server…" page.
+Repeatable: yes "tried 5 time"
+Blocker: yes
+Test Owner: Hampig Kodjanian
+
+Test #: 2
+Build #: 02/27/2024
+Category: game play
+Test Case: I tried again an hour later it worked while doing the 1st Tutorial 1 minute in logged me out and I still heard the game music, but I am out of the game and couldn’t login again.
+Expected Result: Play the tutorial
+Actual Result: game logged out
+Repeatable: I don’t know, couldn’t login again
+Blocker: Yes
+Test Owner: Hampig Kodjanian
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Click add friend icon, then press back icon to return to main page
+Expected Result: Be returned to main page once friend added
+Actual Result: Upon pressing the back icon to return to main page, the game would freeze and would have to log in again.
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: Playing tutorial
+Expected Result: Instruct us how to play as a beginner
+Actual Result: Got kicked out the game mid tutorial
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 1
+Build #: 02/27/2024
+Category: login
+Test Case: tried to login with my Gmail, it gets Authenticatedand tells me " now you can close this tab and return to the game" when I return to the game page it only shows "Connecting to server…" and it doesn’t, waited 10 min didn't work
+Expected Result: the home page of the game will show.
+Actual Result: it stays on the "Connecting to server…" page.
+Repeatable: yes "tried 5 time"
+Blocker: yes
+Test Owner: Hampig Kodjanian
+
+Test #: 2
+Build #: 02/27/2024
+Category: game play
+Test Case: I tried again an hour later it worked while doing the 1st Tutorial 1 minute in logged me out and I still heard the game music, but I am out of the game and couldn’t login again.
+Expected Result: Play the tutorial
+Actual Result: game logged out
+Repeatable: I don’t know, couldn’t login again
+Blocker: Yes
+Test Owner: Hampig Kodjanian
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Too many unncessary actions need for simple Login thorugh Google
+Expected Result: Simple authentication process one external tab
+Actual Result: Multiple tabs needed to be open for login
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 2
+Build #: 02/27/2024
+Category: Connecting to Server
+Test Case: Takes way to long to connect to server
+Expected Result: Wait less than 20 sec to access the server
+Actual Result: On both my mac and windows laptop I waited over 10 min
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 3
+Build #: 02/27/2024
+Category: Postive
+Test Case: Great graphic overall with the sound
+Expected Result: Basic desgin and graphic
+Actual Result: exceeded my expectation
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 4
+Build #: 02/27/2024
+Category: negative
+Test Case: Last weekend I was able to play the tutorial now I cannot even acess the server
+Expected Result: Faster loading time
+Actual Result: Cannot play or server error
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 1
+Build #: 02/27/2024
+Category: UI/game
+Test Case: User Case: no hover feedback over buttons
+Expected Result: highlight button upon mouse hover
+Actual Result: nothing
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: had to re-authenticate myself
+Expected Result: auto login when clicking email
+Actual Result: went through re-authentication process
+Repeatable: no
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 3
+Build #: 02/27/2024
+Category: General Usage
+Test Case: User Case: using Google Chrome 
+ Latency 3000+, bad fps
+Expected Result: enough fps to understand what is happening
+Actual Result: 2-3 frames a second
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 4
+Build #: 02/27/2024
+Category: Tutorial
+Test Case: user case: finished tutorial, message for tutorial 
+ still shows after tutorial ended
+Expected Result: expecting a congratulations message or
+ something similar once tutorial was finished
+Actual Result: the same tutorial message from before 
+ the tutorial is still displayed
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 5
+Build #: 02/27/2024
+Category: Edit Profile
+Test Case: User Case: Categories not working
+Expected Result: Player Frame, Player Title, Player Banner 
+ buttons go into their respected page layout
+Actual Result: the buttons do not do anything
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 6
+Build #: 02/27/2024
+Category: game
+Test Case: Bug: force quite game, back to relogin page
+Expected Result: play a game against an opponent
+Actual Result: game froze, then sent me back to my log 
+ in page
+Repeatable: yes
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 7
+Build #: 02/27/2024
+Category: login
+Test Case: Bug: log in after previous force quite
+Expected Result: stuck on "Login with email…"
+Actual Result: log in
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 8
+Build #: 02/27/2024
+Category: game
+Test Case: Bug: in game, AI Player 1 timer stopped
+Expected Result: timer would continue to count down
+Actual Result: timer stopped at 72 seconds, I was
+ clicking on my cards to place, not during
+ my turn
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 9
+Build #: 02/27/2024
+Category: main page/game
+Test Case: bug: searching for game
+Expected Result: find a game, or notify that game could not be
+ found
+Actual Result: game froze, then sent me back to my log 
+ in page
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Click add friend icon, then press back icon to return to main page
+Expected Result: Be returned to main page once friend added
+Actual Result: Upon pressing the back icon to return to main page, the game would freeze and would have to log in again.
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: Playing tutorial
+Expected Result: Instruct us how to play as a beginner
+Actual Result: Got kicked out the game mid tutorial
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 3
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Once user is on the Main Page screen, user clicks on the round Friends button on the right. User sees a friends menu sliding form the right. User then clicks "Add Friend", a screen appears, the background becomes blurry. User then clicks on the X button to close the screen. The pop-up disappers but the Main Page screen remains blurry for the user, nothing is clickable. User has to reload the game and log in again. See image file attached to the submission.
+Expected Result: User can close the Friends pop-up using the X button and successfully return to the Main Page.
+Actual Result: User can close the Friends pop-up using the X button but can't access the Main Page anymore.
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Yana Zaynullina
+
+Test #: 4
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Suggestion: On the Main Page, when user hovers over the three round buttons in the middle of the right corner, consider adding labels that would have the text letting user know what each button does, i.e. Friends, Leaderboard, etc.
+Expected Result: Expected to see labels or some text appearing to confirm my assumptions based on the images on the buttons.
+Actual Result: No text appeared, user has to click to learn what each button does.
+Repeatable: Unknown
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: 5
+Build #: 02/27/2024
+Category: Main Page | Settings
+Test Case: The X button does not work on the Settings screen in the Main Menu. User has to use the Cancel button to close it.
+Expected Result: User can exit Settings using the X button.
+Actual Result: Clicking on the X button does not do anything in Settings.
+Repeatable: Yes
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: 6
+Build #: 02/27/2024
+Category: UI
+Test Case: Suggestion: Consider ensuring that all buttons have the same text formatting. Some buttons have all letters capitalized in the text, such as SAVE in Settings, CANCEL in Create New Deck.
+Expected Result: Unknown
+Actual Result: Unknown
+Repeatable: Unknown
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: 7
+Build #: 02/27/2024
+Category: Main Page | News
+Test Case: Suggestion: Consider adding an option "Click here to stop seeing this message" or something like that so that user does not see the News/Updates screen appear in the Main Menu with announcements unprompted.
+Expected Result: Unknown
+Actual Result: Unknown
+Repeatable: Unknown
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: 8
+Build #: 02/27/2024
+Category: Main Page | Leaderboard, UI
+Test Case: Some text is overlapping on the Leadership screen, for example (TOP 100%) gets on the next line and covers the text. See image attached to the submission.
+Expected Result: User can see all the text clearly.
+Actual Result: User cannot see some text.
+Repeatable: Yes
+Blocker: No
+Test Owner: Yana Zaynullina
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Click add friend icon, then press back icon to return to main page
+Expected Result: Be returned to main page once friend added
+Actual Result: Upon pressing the back icon to return to main page, the game would freeze and would have to log in again.
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: Playing tutorial
+Expected Result: Instruct us how to play as a beginner
+Actual Result: Got kicked out the game mid tutorial
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Andrew Gabriel
+
+Test #: 6
+Build #: 02/27/2024
+Category: First Gameplay Tutorial
+Test Case: Game board displays on Firefox web browser
+Expected Result: Game board is displayed
+Actual Result: Game board is displayed
+Repeatable: yes
+Blocker: no
+Test Owner: Rishabh Chadha
+
+Test #: 7
+Build #: 02/27/2024
+Category: First Gameplay Tutorial
+Test Case: Blue spotlight is oversized for the cards
+Expected Result: Blue spotlight is right size for cards
+Actual Result: Blue spotlight is oversized
+Repeatable: yes
+Blocker: no
+Test Owner: Rishabh Chadha
+
+Test #: 8
+Build #: 02/27/2024
+Category: First Gameplay Tutorial
+Test Case: Blue spotlight is oversized for "Draw Card" button
+Expected Result: Blue spotlight is right size for "Draw Card"
+Actual Result: Blue spotlight is oversized
+Repeatable: yes
+Blocker: no
+Test Owner: Rishabh Chadha
+
+Test #: 9
+Build #: 02/27/2024
+Category: First Gameplay Tutorial
+Test Case: Blue spotlight is oversized for "Phase Selector" button
+Expected Result: Blue spotlight is right size for "Phase Selector"
+Actual Result: Blue spotlight is oversized
+Repeatable: yes
+Blocker: no
+Test Owner: Rishabh Chadha
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Tutorial Menu
+Test Case: bug: Leaving tutorial does not allow you to return even though it asks you again
+Expected Result: Re-enter tutorial when asked in initial prompt
+Actual Result: Cannot return to tutorial from initial prompt when asked
+Repeatable: No
+Blocker: No
+Test Owner: Inderjit Singh
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Tutorial Menu
+Test Case: bug: Tutorial counts as complete even if you leave in the beginning of it
+Expected Result: Tutorial should not be complete if you leave midway through
+Actual Result: Tutorial counts as completed and rewards money
+Repeatable: No
+Blocker: No
+Test Owner: Inderjit Singh
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Settings Menu
+Test Case: bug: Settings menu does not close with the X on top right
+Expected Result: Clicking X should allow user to leave settings menu
+Actual Result: Clicking X does not do anything
+Repeatable: Yes
+Blocker: No
+Test Owner: Inderjit Singh
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Deck Builder
+Test Case: user case: For cards with a limit of 2, if we remove one, we cannot add the other back until we remove both cards
+Expected Result: Allow users to remove and add cards when clicked
+Actual Result: Cannot add card until we remove all form deck
+Repeatable: Yes
+Blocker: No
+Test Owner: Inderjit Singh
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: UI/Edit Profile
+Test Case: bug: Username change does not go into effect upon pressing the save button
+Expected Result: Username changes
+Actual Result: Username does not change
+Repeatable: yes
+Blocker: no
+Test Owner: Narek Karapetyan
+
+Test #: 1
+Build #: 02/27/2024
+Category: UI/Deck Builder Tutorial
+Test Case: bug: Play botton does not work
+Expected Result: Deck Builder Tutirial starts
+Actual Result: Nothing Happens
+Repeatable: yes
+Blocker: yes
+Test Owner: Narek Karapetyan
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: After completeing the tutorial and going back to the login screen it got stuck on login with email
+Expected Result: Login with email
+Actual Result: Screen got stuck on "login with email"
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Heather Gardner
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: After completeing the tutorial and going back to the login screen it got stuck on after authenication to "connecting to server"
+Expected Result: Log in and play game
+Actual Result: Screen got stuck on "connecting to server"
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Heather Gardner
+
+Test #: 3
+Build #: 02/27/2024
+Category: UI
+Test Case: Tutorial
+Expected Result: Player info and card info will not interfere with gameplay
+Actual Result: It bothers me that the Player info and the info on a card overlap the gameplay screen.
+Repeatable: Yes
+Blocker: No
+Test Owner: Heather Gardner
+
+Test #: 4
+Build #: 02/27/2024
+Category: Game
+Test Case: Gameplay Tutorial
+Expected Result: Play game/tutorial
+Actual Result: Error "An error occurred running he unity content on this page. See your browser JavaScript console for more info. The error was:abort(275)at Error at jsStackTrace(https://www.endersgate.app/build/EndersGateTCG.framework.js:2:16364
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Heather Gardner
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login/UI/Game/Main Page
+Test Case: One of the bugs I found in the game is while doing the tutorial for gameplay if I click in one card and move to another instruction inside the game, the current steps does not update correctly
+Expected Result: the cards update sooner to the current state of the action in the introduction
+Actual Result: While in other card selection the previous card would keep the current Mouse Click state and respond as if it is currently clicked
+Repeatable: yes
+Blocker: Yes
+Test Owner: Javier Galan
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login/UI/Game/Main Page
+Test Case: If logged out because of not current activity (not sure if this is a bug as well since the window was opened I just didnt move anything for around 20 min, the current authentication again, does not load correctly, it stays in "authenticating
+Expected Result: Expected the authentication to run smooth again even if user is already authenticated, automatically log me in again based on "Remembered data" the same way the CSUN authentication works
+Actual Result: authenticating indefinitely (waited for around 30 min to see some results to change but the authentication did not happen after a while, the way It was solved it was by playing again a few more times but the servers never loaded
+Repeatable: yes
+Blocker: no
+Test Owner: Javier Galan
+
+Test #: 3
+Build #: 02/27/2024
+Category: Reloading the game(Refreshing Page
+Test Case: One of the bugs I found in the game is that if I try to reload the page the game would crash and disconnect me from the servers, as well the loading connecting to servers appear again like the one from test #2
+Expected Result: Expected not to be disconnected from the server and load current game = current server, instead of that the game seems to disconnect current player if refresh
+Actual Result: player has been disconnected from the server and the current server has been
+Repeatable: yes
+Blocker: yes
+Test Owner: Javier Galan
+
+Test #: 8
+Build #: 02/27/2024
+Category: Game
+Test Case: Refreshing does not fix frozen state
+Expected Result: Refresh the page to undo a frozen game state
+Actual Result: After refresh, all games remain in frozen unplayable state
+Repeatable: yes
+Blocker: Yes
+Test Owner: Randy Herrera
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: When trying to attack the opponent directly, clicking a Guardian twice stops you from attacking but the attack UI stays up.
+Expected Result: The attack UI would go away if I click a Guardian twice to attack the opponent
+Actual Result: The attack UI, arrow and aura, stayed up and confused me on why I couldn't attack
+Repeatable: Y
+Blocker: N
+Test Owner: Peter Hernandez
+
+Test #: 4
+Build #: 02/27/2024
+Category: Adventure: Training Mode
+Test Case: When I load up the training mode, all I have is an empty filed that does nothing. No timer, no cards, no opponent
+Expected Result: A practice mode where I'm able to play an AI game like in Arena mode
+Actual Result: I load into an empty room with no cards and no opponent
+Repeatable: Y
+Blocker: N
+Test Owner: Peter Hernandez
+
+Test #: 16
+Build #: 02/27/2024
+Category: game play
+Test Case: Page frozen
+Expected Result: Tutorial battle starting
+Actual Result: Nothing , the whole page froze
+Repeatable: Yes
+Blocker: yes
+Test Owner: Mimi Truong
+
+Test #: 17
+Build #: 02/27/2024
+Category: Arena Game
+Test Case: Moved to new tab, came back and game logged me out
+Expected Result: Battle begins
+Actual Result: logged me out and now I have to take the extra million steps to authenticate myself
+Repeatable: Yes
+Blocker: yes
+Test Owner: Mimi Truong
+
+Test #: 18
+Build #: 02/27/2024
+Category: connect to server
+Test Case: Still connecting to server after several minutes after authentication
+Expected Result: home page loads
+Actual Result: still connecting to the server since everyone is playing
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Mimi Truong
+
+Test #: 1
+Build #: 02/27/2024
+Category: login
+Test Case: tried to login with my Gmail, it gets Authenticatedand tells me " now you can close this tab and return to the game" when I return to the game page it only shows "Connecting to server…" and it doesn’t, waited 10 min didn't work
+Expected Result: the home page of the game will show.
+Actual Result: it stays on the "Connecting to server…" page.
+Repeatable: yes "tried 5 time"
+Blocker: yes
+Test Owner: Hampig Kodjanian
+
+Test #: 2
+Build #: 02/27/2024
+Category: game play
+Test Case: I tried again an hour later it worked while doing the 1st Tutorial 1 minute in logged me out and I still heard the game music, but I am out of the game and couldn’t login again.
+Expected Result: Play the tutorial
+Actual Result: game logged out
+Repeatable: I don’t know, couldn’t login again
+Blocker: Yes
+Test Owner: Hampig Kodjanian
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: Bug: Game boots me back to main menu during tutorial
+Expected Result: Game plays normally
+Actual Result: Logged out of game to main menu
+Repeatable: No
+Blocker: Yes
+Test Owner: Grigor Azakian
+
+Test #: 2
+Build #: 02/27/2024
+Category: Game
+Test Case: User: Latency indicator blocking GUI elements
+Expected Result: Latency indicator owns its own spot on the page
+Actual Result: Latency indicator covering GUI elements
+Repeatable: Tes
+Blocker: Yes
+Test Owner: Grigor Azakian
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login/UI/Game/FindMatch  Login/UI/Game/training
+Test Case: Bug: Whenever I try to find a match online or go to the training, the game does not load into the game, and is just stuck loading the match
+Expected Result: I would get in a match
+Actual Result: The game does not load into the match
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Omar Garcia
+
+Test #: 4
+Build #: 02/27/2024
+Category: Login/UI/Game/Friends
+Test Case: Bug? Whenever I ask friend to battle, and they accept, the game loads in, but logs both of us out
+Expected Result: Expecting to play with a friend
+Actual Result: I couldn't get a game and it always logged both of us out
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Omar Garcia
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login/UI/Game/FindMatch  Login/UI/Game/training
+Test Case: Bug: Whenever I try to find a match online or go to the training, the game does not load into the game, and is just stuck loading the match
+Expected Result: I would get in a match
+Actual Result: The game does not load into the match
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Kevin Chaja
+
+Test #: 4
+Build #: 02/27/2024
+Category: Login/UI/Game/Friends
+Test Case: Bug? Whenever I ask friend to battle, and they accept, the game loads in, but logs both of us out
+Expected Result: Expecting to play with a friend
+Actual Result: I couldn't get a game and it always logged both of us out
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Kevin Chaja
+
+Test #: 4
+Build #: 02/27/2024
+Category: login
+Test Case: bug: unable to connect to server after doing the authorization
+Expected Result: connect me to the server
+Actual Result: stuck on a screen that says connectng to server
+Repeatable: no
+Blocker: yes
+Test Owner: Victor Um
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Too many unncessary actions need for simple Login thorugh Google
+Expected Result: Simple authentication process one external tab
+Actual Result: Multiple tabs needed to be open for login
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 2
+Build #: 02/27/2024
+Category: Connecting to Server
+Test Case: Takes way to long to connect to server
+Expected Result: Wait less than 20 sec to access the server
+Actual Result: On both my mac and windows laptop I waited over 10 min
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 3
+Build #: 02/27/2024
+Category: Postive
+Test Case: Great graphic overall with the sound
+Expected Result: Basic desgin and graphic
+Actual Result: exceeded my expectation
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 4
+Build #: 02/27/2024
+Category: negative
+Test Case: Last weekend I was able to play the tutorial now I cannot even acess the server
+Expected Result: Faster loading time
+Actual Result: Cannot play or server error
+Repeatable: yes
+Blocker: no
+Test Owner: Cheol Han
+
+Test #: 2
+Build #: 02/27/2024
+Category: Deck Builder Tutorial
+Test Case: Clicking play does not start tutorial
+Expected Result: Start the tutorial
+Actual Result: Does not start tutorial
+Repeatable: yes
+Blocker: yes
+Test Owner: Jonathan Alcantar
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Sign in Via Google locks up browser
+Expected Result: Sign in via google and continue to game
+Actual Result: Browser reported as not responding
+Repeatable: No
+Blocker: No
+Test Owner: Jack Konyan
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Stuck on Connecting to Server
+Expected Result: Message to appear but connect and move on
+Actual Result: Stuck on connecting screen
+Repeatable: yes
+Blocker: Yes
+Test Owner: Jack Konyan
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: Tutorial battle
+Expected Result: Attack player and win game
+Actual Result: No action is available to take
+Repeatable: no
+Blocker: yes
+Test Owner: Jack Konyan
+
+Test #: 4
+Build #: 02/27/2024
+Category: Game
+Test Case: Refreshing page
+Expected Result: Continue to be logged in
+Actual Result: Logs me out
+Repeatable: Yes
+Blocker: No
+Test Owner: Jack Konyan
+
+Test #: 5
+Build #: 02/27/2024
+Category: Game
+Test Case: Launch Deck Builder Tutorial
+Expected Result: Tutorial starts
+Actual Result: Nothing happens and tutorial is marked as complete
+Repeatable: No
+Blocker: Yes
+Test Owner: Jack Konyan
+
+Test #: 1
+Build #: 02/27/2024
+Category: UI
+Test Case: When in tutorial mode, ui elements were too quick for me to catch up with
+For instance, when switching bitween phases, quick notifications would pop up in the middle of the screen
+and I would have hard time catching what they said
+Expected Result: At least the notifications should  be available for 2 seconds before they disappear
+Actual Result: They were too quick
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 2
+Build #: 02/27/2024
+Category: UI
+Test Case: The search feature does not work in tutorials tab
+Expected Result: When searching keywords, it should dynamically render the needed tutorial
+Actual Result: No change in the rendered list
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 3
+Build #: 02/27/2024
+Category: Main Page
+Test Case:  news feed buttons (Latest News, Latest Updates) do not do anything when clicked
+
+Expected Result: Open separate tab for detaild information on each of those buttons
+Actual Result: No change when clicked
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 4
+Build #: 02/27/2024
+Category: UI
+Test Case: even though I the First Gameplay Tutorial" was completed,
+Expected Result: Unknown
+Actual Result: Unknown
+Repeatable: Unknown
+Blocker: Unknown
+Test Owner: Unknown
+
+Test #: 5
+Build #: 02/27/2024
+Category: UI
+Test Case: hitting X on settings menu does not close the window, however, the cancel does
+Expected Result: hitting it would close the window
+Actual Result: does not respond
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 6
+Build #: 02/27/2024
+Category: Game
+Test Case: Clicking on the play builder deck tutorial, would just close the turorial window
+and would not open the tutorial
+even though I have not completed it, it says that I did complete it
+Expected Result: Start a turorial like First Gameplay tutorial would do
+Actual Result: Just closes the tutorial selection window
+Repeatable: yes
+Blocker: no
+Test Owner: Eduard Hovhannisyan
+
+Test #: 4
+Build #: 02/27/2024
+Category: Main Page
+Test Case: exiting first tutorial
+Expected Result: new player pop up no longer displays
+Actual Result: new player pop up displays, when yes is clicked nothing happens
+Repeatable: no
+Blocker: no
+Test Owner: Christina Mourad
+
+Test #: 5
+Build #: 02/27/2024
+Category: Main Page
+Test Case: beginning next tutorial after the first is completed
+Expected Result: second tutorial begins
+Actual Result: doesn't run tutorial
+Repeatable: yes
+Blocker: yes
+Test Owner: Christina Mourad
+
+Test #: 6
+Build #: 02/27/2024
+Category: Game
+Test Case: clicking and activating items before told by tutorial
+Expected Result: doesn't allow/doesn't allow user to access
+Actual Result: glitches and doesn't allow for tutorial to resume
+Repeatable: yes if really forced
+Blocker: no
+Test Owner: Christina Mourad
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: 
+bug: Put down Lumberjack Nick and got sent back to login screen
+Expected Result: Lumberjack Nick would be placed onto the battlefield
+Actual Result: Got sent back to the login screen
+Repeatable: No
+Blocker: Yes/no
+Test Owner: Ryan Kao
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: 
+user case: Got stuck on email login
+Expected Result: To get sent to log in screen
+Actual Result: Infinite load time
+Repeatable: yes
+Blocker: Yes/no
+Test Owner: Ryan Kao
+
+Test #: 3
+Build #: 02/27/2024
+Category: Login
+Test Case: 
+
+user case: Got stuck on connecting to server
+Expected Result: Sent to the home screen after log in
+Actual Result: Stuck on connecting to server
+Repeatable: yes
+Blocker: Yes/no
+Test Owner: Ryan Kao
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: user case: after using email to login, return back to the original page, it shows "connectting to the server", and never goes to the next step
+Expected Result: go to the main page
+Actual Result: stays in the login page
+Repeatable: yes
+Blocker: yes
+Test Owner: Hannah Xie
+
+Test #: 1
+Build #: 02/27/2024
+Category: Main Page
+Test Case: User: If I leave page and return to home it continues to ask about playing tutorial
+Expected Result: If I play tut I expect it to remember and not keep popping up
+Actual Result: Marked that I did tutorial  on tutorial page but would still keep popping up if I left the main page and returned
+Repeatable: yes
+Blocker: Unknown
+Test Owner: Alondra Sanchez
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Bug: clicking deck tutorial doesnt work
+Expected Result: Expected deck tutorial to start
+Actual Result: Just closed the tab without starting anything
+Repeatable: yes
+Blocker: Unknown
+Test Owner: Alondra Sanchez
+
+Test #: 2
+Build #: 02/27/2024
+Category: Game
+Test Case: Black screen when I loaded into a game wouldn't let me click anything
+Expected Result: load the screen properly
+Actual Result: black screen
+Repeatable: no
+Blocker: Yes/no
+Test Owner: Brian Rojas
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Bug: Closing pop-up for login
+Expected Result: Option to login to be apparent again
+Actual Result: auses the login page to be stuck on "login with email"
+Repeatable: Yes
+Blocker: no
+Test Owner: Jae Molina
+
+Test #: 2
+Build #: 02/27/2024
+Category: UI
+Test Case: Bug: Opening friends list and then open "Add Friends" and then closing both menus
+Expected Result: Close both menus and return to menu
+Actual Result: Menu is unable to be intreacted and is blurred. Cannot be resolved until you refresh the page
+Repeatable: yes
+Blocker: Yes
+Test Owner: Jae Molina
+
+Test #: 3
+Build #: 02/27/2024
+Category: Login
+Test Case: User Case: Too often needed to resign
+Expected Result: Refreshing page should keep you still signed in
+Actual Result: When you refresh the page, it signs you out
+Repeatable: Yes
+Blocker: no
+Test Owner: Jae Molina
+
+Test #: 1
+Build #: 02/27/2024
+Category: UI/game
+Test Case: User Case: no hover feedback over buttons
+Expected Result: highlight button upon mouse hover
+Actual Result: nothing
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: had to re-authenticate myself
+Expected Result: auto login when clicking email
+Actual Result: went through re-authentication process
+Repeatable: no
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 3
+Build #: 02/27/2024
+Category: General Usage
+Test Case: User Case: using Google Chrome 
+Latency 3000+, bad fps
+Expected Result: enough fps to understand what is happening
+Actual Result: 2-3 frames a second
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 4
+Build #: 02/27/2024
+Category: Tutorial
+Test Case: user case: finished tutorial, message for tutorial 
+still shows after tutorial ended
+Expected Result: expecting a congratulations message or
+something similar once tutorial was finished
+Actual Result: the same tutorial message from before 
+the tutorial is still displayed
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 5
+Build #: 02/27/2024
+Category: Edit Profile
+Test Case: User Case: Categories not working
+Expected Result: Player Frame, Player Title, Player Banner 
+buttons go into their respected page layout
+Actual Result: the buttons do not do anything
+Repeatable: yes
+Blocker: no
+Test Owner: Jared Immerman
+
+Test #: 6
+Build #: 02/27/2024
+Category: game
+Test Case: Bug: force quite game, back to relogin page
+Expected Result: play a game against an opponent
+Actual Result: game froze, then sent me back to my log 
+in page
+Repeatable: yes
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 7
+Build #: 02/27/2024
+Category: login
+Test Case: Bug: log in after previous force quite
+Expected Result: stuck on "Login with email…"
+Actual Result: log in
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 8
+Build #: 02/27/2024
+Category: game
+Test Case: Bug: in game, AI Player 1 timer stopped
+Expected Result: timer would continue to count down
+Actual Result: timer stopped at 72 seconds, I was
+clicking on my cards to place, not during
+my turn
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 9
+Build #: 02/27/2024
+Category: main page/game
+Test Case: bug: searching for game
+Expected Result: find a game, or notify that game could not be
+found
+Actual Result: game froze, then sent me back to my log 
+in page
+Repeatable: no
+Blocker: yes
+Test Owner: Jared Immerman
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main Menu
+Test Case: Deck Builder Tutorial cannot be accessed through the main menu
+Expected Result: Deck Builder Tutorial should start
+Actual Result: User is brought back to main menu
+Repeatable: Yes
+Blocker: No
+Test Owner: Jorge Enriquez
+
+Test #: 3
+Build #: 02/27/2024
+Category: Main Menu
+Test Case: After user is kicked from inactivity, user can no longer log back in
+Expected Result: User’s browser should open Magic to log in
+Actual Result: No tab or pop up appears for log in
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Jorge Enriquez
+
+Test #: 2
+Build #: 02/27/2024
+Category: Edit Profile Page
+Test Case: Clicking the three buttons: Player Frame, Player Title, and Player Banner all do nothing
+Expected Result: They should allow me to customize those things
+Actual Result: Nothing happens
+Repeatable: yes
+Blocker: no
+Test Owner: Garrette Clarke
+
+Test #: 2
+Build #: 02/27/2024
+Category: Deck Building Page
+Test Case: When trying to add a card to my deck that I don't have, it says "You've only got 0 cards"
+Expected Result: I would expect it to say "You don't have any of those cards"
+Actual Result: It says something different
+Repeatable: yes
+Blocker: no
+Test Owner: Garrette Clarke
+
+Test #: 1
+Build #: 02/27/2024
+Category: Main Page
+Test Case: bug: clicking on the deckbuilder tutorial button doesn’t take you to a tutorial.
+Expected Result: Expected to go to a tutorial about deckbuilding
+Actual Result: Menu goes away and user stays at the main menu and deckbuilder tutorial never launches.
+Repeatable: yes
+Blocker: no
+Test Owner: Jayms Stockdale
+
+Test #: 2
+Build #: 02/27/2024
+Category: Game
+Test Case: user case: extreamly high latency on windows 11 pc, running on chrome browser. Specs: i9900kf, 2070 super, 32gb ram ddr4, m.2 ssd. Hardwired Lan connection to internet
+Expected Result: Expected game to run smoothly. The game does run well on my macbook pro with an m1 pro chip on chrome browser.
+Actual Result: Super high latency causing game run very poorly, practactly makes game unplayable
+Repeatable: yes
+Blocker: yes
+Test Owner: Jayms Stockdale
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: When attempting to play an Arena Match or a training match, I am logged out as soon as the arena loads
+Expected Result: Start a match
+Actual Result: Logged out
+Repeatable: yes
+Blocker: yes
+Test Owner: Donald Cruz
+
+Test #: 4
+Build #: 02/27/2024
+Category: User Case
+Test Case: On browser, scrolling through one's card collection is extremely choppy
+Expected Result: scroll througH the collection quickly
+Actual Result: Choppy scrolling
+Repeatable: yes
+Blocker: no
+Test Owner: Donald Cruz
+
+Test #: 1
+Build #: 02/27/2024
+Category: Main page
+Test Case: Main page is white and blank while trying to load/render
+Expected Result: I expected a main page and I didn't get any
+Actual Result: I am met with a blank white screen because it took too long for the main page to load
+Repeatable: no
+Blocker: no
+Test Owner: Mansoor Amza
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main page
+Test Case: Main page took a while to load when scrolling too fast
+Expected Result: A fully rendered main page
+Actual Result: As I scrolled fast down it was still trying to load in the contnet
+Repeatable: yes
+Blocker: no
+Test Owner: Mansoor Amza
+
+Test #: 3
+Build #: 02/27/2024
+Category: Unknown
+Test Case: Play now button with purple hover effect seems unreadable
+Expected Result: This is a suggestion
+Actual Result: This is a suggestion
+Repeatable: yes
+Blocker: no
+Test Owner: Mansoor Amza
+
+Test #: 8
+Build #: 02/27/2024
+Category: Tutorial Search (Main Page)
+Test Case: Bug: The tutorial search bar does not seem to search after clicking on the search icon or pressing "Enter"
+Expected Result: The tutorial search bar should search the tutorials when a search term is entered and either the search icon or the "Enter" key is pressed
+Actual Result: The tutorial search bar does not initiate a search after a term is entered and the search icon or "Enter" key is pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 9
+Build #: 02/27/2024
+Category: Tutorial Search (Main Page)
+Test Case: Bug: The tutorial search bar clear icon (the "X") does not clear the input field when pressed
+Expected Result: The "X" to clear the tutorial search bar should clear the input field
+Actual Result: The "X" to clear the tutorial search bar does not clear the input field when pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 10
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: Bug: The "X" to close the Settings overlay does not close the overlay
+Expected Result: The "X" should close the Settings overlay when pressed
+Actual Result: The "X" does not close the Settings overlay when pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 11
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: User Case: "SAVE" in the Settings has all letters capitalized when the other words on the buttons only have the first letter capitalized
+Expected Result: I expect the capitalization to be consistent throughout the Settings
+Actual Result: SAVE has all letters capitalized and is inconsistent with the other buttons
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 12
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: User Case: "default" in the "Reset to default" button in Settings is not capitalized  and is inconsistent with the other capitalization in Settings
+Expected Result: I expect the capitalization to be consistent throughout the Settings
+Actual Result: default in the "Reset to default" button in Settings is not capitalized  and is inconsistent with the other capitalization in Settings
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 13
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: User Case: The word "volume" for the option "Sound volume" does not have the first letter capitalized and is inconsistent with the words in the other options in Settings
+Expected Result: I expect the capitalization to be consistent throughout the Settings
+Actual Result: The word "volume" for the option "Sound volume" does not have the first letter capitalized and is inconsistent with the words in the other options in Settings
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 14
+Build #: 02/27/2024
+Category: Settings (Main Page)
+Test Case: Bug: The "Cancel" button in the Settings seems to save the options that were updated
+Expected Result: I expect the "Cancel" button in the Settings to close the Settings without saving the updates to the optios
+Actual Result: The "Cancel" button saved the updated options in the Settings
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 15
+Build #: 02/27/2024
+Category: Add Friends Page
+Test Case: Bug: After closing the "Add Friends", the background stays blurry and prevents further navigation of the website
+Expected Result: I expect the background to return to normal after closing the "Add Friends" page
+Actual Result: The background remained blurry after closing the "Add Friends" background and prevented further navigation of the website
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Katrina Ortiz
+
+Test #: 16
+Build #: 02/27/2024
+Category: Leaderboard Page
+Test Case: Bug: The leaderboard search bar does not seem to search after clicking on the search icon or pressing "Enter"
+Expected Result: The leaderboard search bar should search the leaderboard when a search term is entered and either the search icon or the "Enter" key is pressed
+Actual Result: The leaderboard search bar does not initiate a search after a term is entered and the search icon or "Enter" key is pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 17
+Build #: 02/27/2024
+Category: Leaderboard Page
+Test Case: Bug: The leaderboard search bar clear icon (the "X") does not clear the input field when pressed
+Expected Result: The "X" to clear the leaderboard search bar should clear the input field
+Actual Result: The "X" to clear the leaderboard search bar does not clear the input field when pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 18
+Build #: 02/27/2024
+Category: Friends Page
+Test Case: Bug: The friends search bar does not seem to search after clicking on the search icon or pressing "Enter"
+Expected Result: The friends search bar should search the friends when a search term is entered and either the search icon or the "Enter" key is pressed
+Actual Result: The friends search bar does not initiate a search after a term is entered and the search icon or "Enter" key is pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 19
+Build #: 02/27/2024
+Category: Friends Page
+Test Case: Bug: The friends search bar clear icon (the "X") does not clear the input field when pressed
+Expected Result: The "X" to clear the friends search bar should clear the input field
+Actual Result: The "X" to clear the friends search bar does not clear the input field when pressed
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 20
+Build #: 02/27/2024
+Category: Edit Profile Page
+Test Case: Bug: The updated Player Name doesn't save after the "Save" button is clicked on the Edit profile page
+Expected Result: The updated Player Name should save when the "Save" is clicked
+Actual Result: The updated Player Name doesn't save after the "Save" button is clicked on the Edit profile page
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 21
+Build #: 02/27/2024
+Category: Deck Builder Page
+Test Case: User Case: "CANCEL" in the Create New Deck menu in the Deck Builder page has all letters capitalized when the words on the other button only have the first letter capitalized
+Expected Result: I expect the capitalization to be consistent throughout the Deck Builder Page
+Actual Result: CANCEL has all letters capitalized and is inconsistent with the other button
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 22
+Build #: 02/27/2024
+Category: Deck Builder Page (Add New Card)
+Test Case: User Case: The add new card content doesn't auto fit when the browser was shrunk so the arrows and the "X" close icon were hidden
+Expected Result: I expect the website's content to auto fit when the browser changes size
+Actual Result: The add new card content doesn't auto fit when the browser was shrunk so the arrows and the "X" close icon were hidden
+Repeatable: Yes
+Blocker: No
+Test Owner: Katrina Ortiz
+
+Test #: 23
+Build #: 02/27/2024
+Category: Gameplay Tutorial Page
+Test Case: Bug: I was able to "Hire" and "Set" every card by the Main Phase 2 stage in the Gameplay tutorial and the tutorial became stuck and was not able to progress
+Expected Result: I expect to be prevented from doing something in the Gameplay tutorial that is not meant to happen at that stage in the tutorial
+Actual Result: I was able to "Hire" and "Set" every card by the Main Phase 2 stage in the Gameplay tutorial and the tutorial became stuck and was not able to progress
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Katrina Ortiz
+
+Test #: 24
+Build #: 02/27/2024
+Category: Gameplay Tutorial Page
+Test Case: Bug: I was able click "Activate" on the "Cursed Jian" card before the Main Phase 2 stage in the Gameplay tutorial and the tutorial became stuck and was not able to progress since the "Cursed Jian" overlay was covering the card I was supposed to "Set" to progress the tutorial
+Expected Result: I expect to be prevented from doing something in the Gameplay tutorial that is not meant to happen at that stage in the tutorial
+Actual Result: I was able click "Activate" on the "Cursed Jian" card before the Main Phase 2 stage in the Gameplay tutorial and the tutorial became stuck and was not able to progress since the "Cursed Jian" overlay was covering the card I was supposed to "Set" to progress the tutorial
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Katrina Ortiz
+
+Test #: 1
+Build #: 02/27/2024
+Category: Log In
+Test Case: Logging in with google took a couple tries to get in
+Expected Result: Loading into the game
+Actual Result: Nothing, just says "connecting to the server…" for 5 minutes
+Repeatable: Yes
+Blocker: No
+Test Owner: Brandon Hakimi
+
+Test #: 2
+Build #: 02/27/2024
+Category: Server
+Test Case: Got kicked out while playing the tutorial after about five minutes. Wasn’t paying too much attention to latency but when I did it was around 170-200. I got a couple turns in the battle phase before it happened. Was kicked out to the main login page with the music still playing
+Expected Result: Continue tutorial
+Actual Result: Got kicked
+Repeatable: Yes
+Blocker: No
+Test Owner: Brandon Hakimi
+
+Test #: 3
+Build #: 02/27/2024
+Category: Tutorial
+Test Case: When I got disconnected while doing the first gameplay tutorial, I got back on 20 minutes later and it said I had finished it. I clicked the play and it still worked and I was able to do the tutorial but doing the tutorial made the game think I had completed the deck builder tutorial as well. Now when I try to do the deck builder tutorial nothing happens when I click play.
+Expected Result: Start deck builder tutorial
+Actual Result: Nothing
+Repeatable: Yes
+Blocker: Yes
+Test Owner: Brandon Hakimi
+
+Test #: 4
+Build #: 02/27/2024
+Category: Profile
+Test Case: The Player Frame, Player Title, and Player Banner buttons do not work in the profile tab. I assume this is because we are still in beta and these things are not very important but I am reporting it just in case it is supposed to work
+Expected Result: Show me options to customize my profile more
+Actual Result: Nothing
+Repeatable: Yes
+Blocker: No
+Test Owner: Brandon Hakimi
+
+Test #: 5
+Build #: 02/27/2024
+Category: Log In
+Test Case: I got kicked out again and tried to log back in but this time the website didn’t even load the login authenticate page after I clicked on "Email Login".
+Expected Result: Take me to authenticate login page
+Actual Result: Login with email… message without opening a new authenticate tab
+Repeatable: No
+Blocker: Yes (but refreshing the page helped resolve the issue)
+Test Owner: Brandon Hakimi
+
+Test #: 1
+Build #: 02/27/2024
+Category: First Gameplay Tutuorial
+Test Case: user case: luna covers gold in tutorial
+Expected Result: Ability to see gold
+Actual Result: Could not see gold
+Repeatable: yes
+Blocker: no
+Test Owner: Rahi Misra
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main Page
+Test Case: bug: asked if new player after tutorial
+Expected Result: Would not ask the same question again
+Actual Result: Asked same thing twice
+Repeatable: no
+Blocker: no
+Test Owner: Rahi Misra
+
+Test #: 3
+Build #: 02/27/2024
+Category: Main Page
+Test Case: bug: randomly disconnected
+Expected Result: The game would stay open
+Actual Result: The game logged out
+Repeatable: yes
+Blocker: yes
+Test Owner: Rahi Misra
+
+Test #: 4
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: stuck in authentication screen after logout
+Expected Result: The game would let me log back in
+Actual Result: Had to open game in new tab
+Repeatable: yes
+Blocker: yes
+Test Owner: Rahi Misra
+
+Test #: 5
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: cannot connect to server
+Expected Result: Get into game after authentication
+Actual Result: Stuck connecting to server
+Repeatable: yes
+Blocker: yes
+Test Owner: Rahi Misra
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: Main Page
+Test Case: user case: main menu buttons have no hover sprite (Arena, Adventure, Tutorials, NFT SHOP, SETTINGS)
+Expected Result: The buttons to hover and possibly change cursor image to signify that it's clickable
+Actual Result: No hover sprite or cursor change
+Repeatable: yes
+Blocker: no
+Test Owner: Jean Hanna
+
+Test #: 1
+Build #: 02/27/2024
+Category: Edit Profile Page
+Test Case: bug case: you can have names with just white space by using space bar
+Expected Result: To display a meaningful error message when inputting an incorrect display name and to not allow white space only
+Actual Result: To display an error message and not allow the user to have a white space only display name
+Repeatable: yes
+Blocker: no
+Test Owner: Jean Hanna
+
+Test #: 1
+Build #: 02/27/2024
+Category: Main Page
+Test Case: Unable to access deck builder tutorial
+Expected Result: In game tutorial loads
+Actual Result: Tutorial menu closes, goes back to main screen
+Repeatable: yes
+Blocker: no
+Test Owner: Eddy Ceniza
+
+Test #: 2
+Build #: 02/27/2024
+Category: Game
+Test Case: Game logged out user during gameplay tutorial
+Expected Result: Smooth gameplay experience
+Actual Result: Laggy experience leading to user signed out, music can still be heard
+Repeatable: yes
+Blocker: yes
+Test Owner: Eddy Ceniza
+
+Test #: 1
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: I accidentally exited the tutorial
+Expected Result: back to main menu with no issue
+Actual Result: back to main menu with tutorial marked complete
+Repeatable: yes
+Blocker: no
+Test Owner: Michael Green
+
+Test #: 2
+Build #: 02/27/2024
+Category: Main page
+Test Case: bug: cannot access tutorial after it has been marked as complete, despite not having done it
+Expected Result: go to second tutorial
+Actual Result: does not go to second tutorial
+Repeatable: yes
+Blocker: no
+Test Owner: Michael Green
+
+Test #: 3
+Build #: 02/27/2024
+Category: UI
+Test Case: User case: Does not display well on ultra wide
+Expected Result: normal display
+Actual Result: bottom part was cutoff unless played in windowed mode
+Repeatable: yes
+Blocker: no
+Test Owner: Michael Green
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: user case: The "Continue with Google" button is appears late.
+Expected Result: The "Continue with Google" button appears with the rest of the page.
+Actual Result: The "Continue with Google" button is loaded 1-3 seconds after the rest of the UI elements.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: bug: While authenticating with Magic, the "Sign" button can be pressed after authentication.
+Expected Result: After clicking "confirm" on the magic.link page during email authentication, the "sign" / "✓" button on the endersgate page stays unpressable.
+Actual Result: After clicking "confirm" on the magic.link page, the "Sign" / "✓" button on the edersgate page becomes clickable again for about 1 second which opens a new magic.link page.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: Tutorials marked as completed without completion upon refresh.
+Expected Result: Refreshing mid tutorial keeps it uncompleted.
+Actual Result: Refreshing and logging back in marks one or more of the tutorials as completed. The first refresh marked the gameplay tutorial as complete, and the second refresh marked the deck builder tutorial as complete despite never opening it.
+Repeatable: no
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 4
+Build #: 02/27/2024
+Category: Login
+Test Case: user case: Temporary email services can be used.
+Expected Result: Only allow reputable email services or have a blacklist of common temporary email services.
+Actual Result: Login allowed with temporary email service such as yopmail.com
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 5
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The settings menu can't be closed with the X button.
+Expected Result: Clicking the X button on the top right of the settings menu closes it.
+Actual Result: Clickcing the X button on the top right of the stetings menu does nothing. Only clicking cancel will close the menu.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 6
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The cancel button saves the settings.
+Expected Result: Pressing cancel on the settings menu reverts the settings to what they were before opening the settings.
+Actual Result: The cancel button saves the settings like the same button.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 7
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: A blur layer added when clicking "Add Friends" never goes away.
+Expected Result: Clicking out of the "Add Friends" menu removes the blur background.
+Actual Result: Clicking out of the "Add Friends" menu does not remove the blur background.
+Repeatable: yes
+Blocker: yes
+Test Owner: Connor Beaudoin
+
+Test #: 8
+Build #: 02/27/2024
+Category: UI
+Test Case: user case: Windows can overlap on the menu.
+Expected Result: Opening a new window, such as settings, friends, leaderboard, etc, closes the other windows on page.
+Actual Result: Opening a new window, such as settings, friends, leaderboard, etc, stacks them on top of each other cluttering the UI.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 9
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The search function in the leaderboard/tutorials does not filter the results.
+Expected Result: Searching for a term shows the filtered results.
+Actual Result: Searching for a term does nothing.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 10
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The X (clear) button on the search bar in the leaderboard/tutorials does not clear the search.
+Expected Result: Clicking the X (clear) button on the search clears the input box.
+Actual Result: Clicking the X (clear) button on the search does nothing.
+Repeatable: yes
+Blocker: no
+Test Owner: Kevin Chaja
+
+Test #: 11
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: Clicking certain UI elements causes the music to stutter/restart.
+Expected Result: Clicking all menu options causes no effect to the music.
+Actual Result: Clicking "NFT SHOP", the square ad in the bottom left, "READ MORE"/"JOIN WAITLIST" in the news, or "FEEDBACK" causes the music to stutter. Clicking into "DECK BUILDER" or the user profile does not cause music stuttering, but clicking out of them back to the menu does cause stuttering.
+Repeatable: yes
+Blocker: no
+Test Owner: Kevin Chaja
+
+Test #: 12
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The "Latest News" and "Latest Update" buttons do nothing.
+Expected Result: The "Latest News" and "Latest Update" buttons open a page with the relevant information.
+Actual Result: The "Latest News" and "Latest Update" buttons do nothing.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 13
+Build #: 02/27/2024
+Category: UI
+Test Case: user case: The top right dragon crested button menu is at a lower resolution (is blurrier) than the bottom left square ad banner.
+Expected Result: The two menu sections have the same level of detail.
+Actual Result: The top left menu is blurrier than the bottom right square ad banner.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 14
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The tutorial uses my autogenerated ID instead of my custom username.
+Expected Result: The tutorial displays my custom username if set before entering the tutorial.
+Actual Result: The tutorial displays my default ID username.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 15
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: During the tutorial, the blue clickable region allows interacting with outside elements which can block progression. By swishing the mouse back and forth quickly over the barrier of the blue region the neighboring card can become selected. Then, the "activate" button is within the clickable blue region which can cause a popup menu that blocks progression and the buttons to interact with it are outside of the blue region which is still the original card the tutorial intended for you to click.
+Expected Result: The blue region prevents outside interactions OR there is no region restriction to prevent blocking progression.
+Actual Result: The tutorial becomes unable to continue.
+Repeatable: yes
+Blocker: yes
+Test Owner: Connor Beaudoin
+
+Test #: 16
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: The "You've got only 1 cards." message in the deck builder is plural.
+Expected Result: It should not be plural if there is only 1 card.
+Actual Result: It is plural.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 17
+Build #: 02/27/2024
+Category: Main Page
+Test Case: user case: The center card rotation animation jerks abruptly as the next card appears and the previous card teleports.
+Expected Result: The card switching animation is smooth.
+Actual Result: The card switching animation jerks and is jarring.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 18
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: The game's music continues to play even if you idle long enough to get logged out. (Tested in the tutorial.)
+Expected Result: The musis cancels when you are logged out.
+Actual Result: The music continues when you are logged out.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 19
+Build #: 02/27/2024
+Category: Game
+Test Case: bug: The "email login" button opens TWO auth pages if you  idle long enough to get logged out. (Tested in the tutorial.)
+Expected Result: Like when you navigate to the login page manually, only one auth page is opened.
+Actual Result: Two auth pages are opened.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: 20
+Build #: 02/27/2024
+Category: UI
+Test Case: bug: "How toOobtain" and "Related Cards" buttons in deck builder don't do anything.
+Expected Result: Open relevant pages or popup menus.
+Actual Result: Nothing happens.
+Repeatable: yes
+Blocker: no
+Test Owner: Connor Beaudoin
+
+Test #: Unknown
+Build #: 02/27/2024
+Category: UI
+Test Case: Words in different language are being split in different lines (Tutorial prompt)
+Expected Result: Words are not separated into two lines
+Actual Result: Word split into half - one in first line, the other in second
+Repeatable: yes
+Blocker: no
+Test Owner: Elijah Ko
+
+Test #: 1
+Build #: 02/27/2024
+Category: Login
+Test Case: Logging in after being kicked due to inactivity leads to being stuck in infinite authentication.
+Expected Result: Log back in as usual
+Actual Result: Stuck in authentication process
+Repeatable: yes
+Blocker: yes
+Test Owner: Elijah Ko
+
+Test #: 2
+Build #: 02/27/2024
+Category: Login
+Test Case: Login page stuck at "Login in with email" when you close the  tab that opens up after pressing login with email
+Expected Result: Give the user a choice to use Wallet Login or Email Login
+Actual Result: Stuck on login page saying "Login with email"
+Repeatable: yes
+Blocker: yes
+Test Owner: Elijah Ko
+
+Test #: 3
+Build #: 02/27/2024
+Category: Game
+Test Case: Pressed the deck building tutorial, nothing happened. It says tutorial completed
+Expected Result: Go through deck building tutorial
+Actual Result: Nothing happened, tutorial is marked complete
+Repeatable: no
+Blocker: no
+Test Owner: Elijah Ko
+

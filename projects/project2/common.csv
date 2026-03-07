@@ -1,0 +1,86 @@
+Category,Test Case,Expected Result,Actual Result,Repeatable?,Blocker?,Number of Builds,Bugs per Build
+UI,Bug: Tutorial coins,Show that you receive the coins/ indicator of the amount of coins you have,Nothing to show anywhere in the menu other that the tutorial says you have completed it,No,No,1,4 in 03/18/2024
+game play,"While playing, it would be much smoother if I could drag and drop cards into attack or defend positions.",it only works by clicking on the card,I was hoping to be able to move the card when I click and move the mouse,no,no,1,2 in 03/19/2024
+setting,The X button doesn't work to exit the settings page; you either have to save or cancel.,get out of settings page,did not do anyting,no,no,1,2 in 03/19/2024
+game,playing tutorial,when playing the tutorial the AI should act like a normal player,"during the AI's 4th turn, it does nothing and just waits out the timer of its turn",no,no,1,2 in 03/06/2024
+Login/UI/Game/Main Page/Settings,"bug: When heading over to the settings page and clicking to adjust the volumes, it stays the same. User case: volume should change as it's increased or decreasd but it doesn't",The volume should go up or down based on what you toggle it to,volume stays the same,no,no,1,2 in 03/19/2024
+Login/UI/Game/Main Page/Settings,"bug: When trying to change the language, it changes the language but some of the display buttons aren't changed such as arena, adventures, tutorials, nft shops, settings. user case: When language is changed, it does not change everything on the main page.",the sidebar and menu options should change when the language is changed,"Only some of the options are changed, and not all",no,no,1,2 in 03/19/2024
+Game,Hired cards not show sometimes,Clicking “Hire” for a card places it on the battlefield,Hiring Fire Croc twice does not place the second Croc on field,no,no,1,2 in 03/19/2024
+UI,"bug: deck builder-> ""how to obtain"", ""related cards"" the buttons to work correctly",,the buttons does not work,no,no,1,2 in 03/19/2024
+login,bug: metamask button does not work,take me to some portal,does not take me anymore,no,no,1,2 in 03/19/2024
+Arena,Game glicthed out,The game is run till one of the plays are defeated or surrender,"The game glitches and crashed, returning user to login page",no,no,1,2 in 03/17/2024
+Tutorial,Skipped turn without giving opportunity for game actions,After enemy's turn ends to take control of game,Timer ticked down without givien opportunityi to play cards,No,No,1,2 in 03/19/2024
+Game,When logining back into the game it appears that my previous deck doesn't get automatically selected,I expect my previous deck to be selected if it is the only one made,It doesn't save my selected deck,No,no,1,2 in 03/18/2024
+Game,Bug: Activating card does not work,Void trap should apply damage,Action was chosen but no card effect occurs,no,no,1,2 in 03/19/2024
+Game,Playing a regular arena,Be able to use my cards in arena,There was an instance where my card would finally be able to activate when it was the opponents turn but wouldn't work regardless in both ends.,no,no,1,2 in 03/18/2024
+Login,Login,Load into the game after authenticating,"Stuck on Autherntication , had to reload the website and relogin",No,No,1,2 in 03/12/2024
+Main page,takes too long to load in to main page,open endersgate.app and load in,"open enders game app and load in, but took almost 1 minute",no,no,1,2 in 03/17/2024
+Game,"user case:After selecting sign-in with email and being placed in the queue for 20 minutes and exiting the application, stuck on ""Authenticating please wait"" screen",To be placed into another queue or game,"frozen on ""authenticating please wait"" screen for 30 minutes, still no activity",no,no,1,2 in 03/17/2024
+Log-in page,"Game stuck on ""login with email"" and not letting me click anything.",To let me log-in.,"Stuck on ""login with email""",No,No,1,2 in 03/13/2024
+In game,Game froze few times mid game.,To continue with game.,Game froze.,No,No,1,2 in 03/13/2024
+Adventure menu,Not letting me use my energy to start adventure mode (1-2).,To let me play adventure.,Button to play not working,No,No,1,2 in 03/13/2024
+Game,Computer player froze during turn until their time when up.,The computer player should have placed cards or ended turn .,After ending my turn the ciomputer made no moves until the end of the turn.,no,no,1,2 in 03/17/2024
+UI,Played the Area Match up Skip my turn and went with AI,My Turn for match up,Skiped and allowed AI to go twice,No,No,1,2 in 03/17/2024
+Login,Seond Tutorial Lags and fails to mark complete,Finshed Tutorial,Marked Complete,No,NO,1,2 in 03/17/2024
+UI,The Profile Icon half of the tabs do not response,All Tabs to be clickable,tab do not respond,No,no,1,2 in 03/17/2024
+Authication,Authication Lag,authentication success and login,Authication took very long then usual,No,No,1,2 in 03/17/2024
+Game,Bug: Main Phse #2 skips and goes to opponent,I should have been able to be on my turn for this phase,The game skipped and went to the opponents side so I was not able to utilize my turn,no,no,1,2 in 03/17/2024
+Login/UI/Game/Main Page/Leaderboard,"bug: When trying to search for a name on the leaderboards, it doesn't return the result. user case:When a name is entered in the leaderboards, it does not return the result",it should return the name that the user searched for,It doesn't return anything and the screen doesn't change and stays the same,no,no,1,2 in 03/10/2024
+Game,Invisible Character on deck,Gargyle to be visible,"Card is placed on deck in servers but visually and in game, there is nothing there but no new card can be placed in that deck",No,No,1,2 in 03/12/2024
+Login,bug: had to re-authenticate myself,auto login when clicking email,went through re-authentication process,no,no,1,4 in 02/27/2024
+Game,no specific bug I found this is a filler for this week,game ran well,enjoyed playing it,no,no,1,2 in 03/12/2024
+Main page,Menu : mouse hoover is not working,"When mouse goes on menu 
+ I expect to have some sort of 
+ Hoover to show what item that 
+ Am I clicking",No result,No,No,1,2 in 03/05/2024
+Tutorial,Still have hovering problem,Expect mouse change,No result,No result,No,1,2 in 03/13/2024
+Second Tutorial,Adding Guardian Cards counted for Action and Reaction cards,For the cards to be sorted in its respected catergory,"The Guardian cards counted for other cards such as the Action and reaction Cards, ending the tutorial without acknowledging the other cards",no,no,1,2 in 03/12/2024
+Game,bug: tutorial AI waited out the timer during its turn instead of taking action,tutorial AI should take action during its turns,tutorial AI does nothing and waits for its turn timer to end,no,no,1,2 in 03/10/2024
+Profile,"The Player Frame, Player Title, and Player Banner buttons do not work in the profile tab. I assume this is because we are still in beta and these things are not very important but I am reporting it just in case it is supposed to work",Show me options to customize my profile more,Nothing,No,No,1,2 in 03/12/2024
+Game,Bug: Previous deck was unselected,Enter arena or adventure with previously selected deck,Previously set deck was unselected,no,no,1,2 in 03/11/2024
+Game,Bug: Unable to attack during battle phase,Attack with available warriors on battlefield,Was only able to attack once due to attack selections not working,no,no,1,2 in 03/11/2024
+Game,"user case:After selecting ""Play Now"" the progress bar got stuck for a while",Game would start sfter waiting no longer than 30 seconds,The progress bar got stuck at about 80% for 90 seconds before starting the game eventually proceeding,no,no,1,2 in 03/08/2024
+Game,Hired a card and it vanished,"Game plays card 
+ after hiring them",Card was not played,No,No,2,2 in 03/06/2024|1 in 10/15/2024
+Battle game,"For the first time, I won!!",Win the battle,Won the battle!,No,No,1,2 in 03/09/2024
+Arena,Took to long to find a battle match,Find a match to battle,Took to long to find a match to play,No,No,1,2 in 03/09/2024
+Main Page,"After finishing the first tutorial for new players (had Victory screen open for the First Gameplay Tutorial), user sees a message box asking if user wants to exit the room by clicking on the Return button. User is asked to confirm they wish to leave: Ok and Cancel. User clicked Ok and was returned back to the Main Menu. However, user sees a text message asking to play tutorial for new players again. User clicked Yes again but nothing happened. User remained on the Main Page.","After finishing the First Gameplay Tutorial and clicking Yes to exit the room, expected to be simply redirected to the Main Page.","After finishing the First Gameplay Tutorial and clicking Yes to exit the room, user is asked to play tutorial again and then nothing happens when user agrees.",No,No,1,2 in 02/25/2024
+Tutorial Menu,bug: Leaving tutorial does not allow you to return even though it asks you again,Re-enter tutorial when asked in initial prompt,Cannot return to tutorial from initial prompt when asked,No,No,1,2 in 02/27/2024
+Tutorial Menu,bug: Tutorial counts as complete even if you leave in the beginning of it,Tutorial should not be complete if you leave midway through,Tutorial counts as completed and rewards money,No,No,1,2 in 02/27/2024
+Game,Can take turns out of order,Out of turn action prevented by warning popup,"Spamming ""Hire"" bypasses current turn and places card on field",no,no,1,2 in 02/22/2024
+Battle phase,"bug: whenever i drag top attack sometimes the attack arrow doesnt show up,and the attack doesnt occur. until i seslct the guardian again and drag again(inefficient)",battling opponets shouldnt feel tedious.                                                                                                                                                       -----------------------------                     suggestion: during the battle phase when selecting a guardian show the attack arrow where ever the mouse goes.,sometimes i need to reselct my guardian to attack,no,no,1,2 in 02/25/2024
+Main Page,user case: new player tutorial pops up on screen even after it is finished,tutorial should stop being recommended after it is finished,new player tutorial continues to pop up on screen until you re-log,no,no,1,2 in 02/22/2024
+Game,bug: enemy AI in training mode stopped placing cards after first turn,enemy AI should continue placing cards throughout the whole battle,enemy AI skipped its turn until the end,no,no,1,2 in 02/22/2024
+Login,Sign in Via Google locks up browser,Sign in via google and continue to game,Browser reported as not responding,No,No,1,2 in 02/27/2024
+Main Page,tutorial completion,to say completed when it is,says completed when not,no,no,3,6 in 02/26/2024|4 in 02/27/2024|4 in 02/25/2024
+Game,clicking off the browser when in tutorial,game to continue,game crashed and returned to login page,no,no,1,2 in 02/26/2024
+Main Page,exiting first tutorial,new player pop up no longer displays,"new player pop up displays, when yes is clicked nothing happens",no,no,1,2 in 02/27/2024
+Tutorial,Launch  tutorial,Tutorial begins,"Black Screen where the play area should be, your hand of cards is visible",no,no,1,2 in 02/25/2024
+Main page,Main page is white and blank while trying to load/render,I expected a main page and I didn't get any,I am met with a blank white screen because it took too long for the main page to load,no,no,1,2 in 02/27/2024
+After first game play tutorial,"ex user case: After the tutorial I get thesame message about me being a new player, yes or no option",I expected to not be asked that question because I already answered it,I got asked if I was a new player again,no,no,1,2 in 02/28/2024
+Game (First Gameplay Tutorial),"bug: stuck on first tutorial dialog with ""Luna"" character","continued dialog with Luna, drawing a new card","screen is stuck with first dialog with ""Luna""",No,No,1,2 in 02/21/2024
+Main Page,bug: asked if new player after tutorial,Would not ask the same question again,Asked same thing twice,no,no,1,2 in 02/27/2024
+Game,Bug: Prompted to start first tutorial again right after finishing it,Be prompted to start second tutorial,Was prompted to start first tutorial again,No,No,1,2 in 02/26/2024
+game,time randomly stopped on opponents turn and ai opponent has not made any moves for a period of time,matchup to change between my turn and the opponent's turn smoothly,"was just stuck on opponent's turn, ended up leaving the match",no,no,1,2 in 02/25/2024
+UI,bug: Player Frame,"to generate options for ""Player Frames""",Nothing happened,No,No,1,6 in 02/25/2024
+Tutorial UI,No highlight in opponents empty card slots,Highlight in oppnents empty card slot to attack directly into opponent health,No highlight in certain opponents empty card slots,no,no,1,2 in 02/25/2024
+UI,Highlighting any highlightable text,More readable highlight color contrasting text color,Yellow highlight on a bright orange text,no,no,1,2 in 02/25/2024
+Decker build UI,No total cards count,Show a total number of cards selected,Difficult to know how many cards in slected deck,no,no,1,2 in 02/25/2024
+Game,"After First Gameplay Tutorial I said I was new again, and I was not immediately sent to Deck Builder Tutorial",Being sent to Deck Builder tutorial after First Game tutorial,Staying on the main page,no,no,1,2 in 02/23/2024
+Game,"I played First Gameplay Tutorial twice, and the game thought I played Deck Builder Tutorial. This would likely not be an issue if I were sent to Deck Builder Tutorial automatically",Deck Builder Tutorial still marked incomplete,Deck Builder Tutorial marked complete,no,no,1,2 in 02/23/2024
+Main Page,Game randomly logged me off.,To not get logged off in main menu.,Game logged me off.,No,No,1,2 in 02/25/2024
+Login,When I press login it did not let in me in while using my email,It will log me in,"When I try to login, it give me a screen that stuck at authanicator screen
+ Then I refresh it, it give me back to the page that require me enter email in.",NO,No,1,2 in 02/25/2024
+Game,Session Bug,Allow my turn,It skip my turn and went with AI,NO,No,1,2 in 02/25/2024
+Login/UI/Game/Main Page,UI Bug,"The login page should start when clicking ""Play now""","Clicking on the ""Play now"" button doesn't initiate the login process",NO,NO,1,2 in 02/25/2024
+Game/Main Page,Bug: Tutorial Screen popup does not properly redirect me to the tutorial upon 2nd showup (1st showup worked and I was able to play tutorial),To be taken back to the tutorial portion for the game,Popup dissapered and I remained on the home page,no,no,1,2 in 02/25/2024
+Main Page,"Bug: The 'X' button when you click into the ""settings"" option does not work",The x button should have closed the settings screen,"The settings screen remained up, I had to hit 'save' or 'cancel' in order to exit the screen",no,no,1,2 in 02/25/2024
+Main Page,Tutorial Pop-up was clicked and nothing happened,"selected ""yes"" and tutorial starts/opens",tutorial did not start,no,no,1,2 in 02/26/2024
+login/first gameplay tutorial,"ex user case: when clicking around the card, The card that needs to be replaced cannot be activated",the card can be activate.,the card was not activate,no,no,1,2 in 02/25/2024
+login/main page/deck builder tutorial,ex user case: cannot take the deck builder tutorial from main page,the deck builder tutorial page can be opened from main page,the deck builder tutorial was not opened from main page,no,no,1,2 in 02/25/2025
+Main Page,"After completing the tutorial for new players, sent back to main menu and was promted with the first time player tutorial again, upon clicking yes again the prompt dissapeared and nothing happened.",That no prompt would appear or that the tutorial would play again.,Prompt had appeared / promt dissapeared when clicked yes,no,no,1,2 in 02/25/2024
+Login/UI/Game/Arena/Bot,The bot gave up and stopped playing mid way through the match,to play to the last card,stopped deploying cards,no,no,2,"1 in Use date you 
+tested on
+10/7/2024|1 in Use date you 
+tested on
+10/12/2024"
